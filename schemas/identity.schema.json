@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Identity Record Schema",
+  "description": "Schema for a single financial instrument identity record.",
+  "type": "object",
+  "properties": {
+    "isin": {
+      "type": ["string", "null"],
+      "description": "International Securities Identification Number (Global)"
+    },
+    "symbol": {
+      "type": "string",
+      "description": "Ticker or symbol used for identification"
+    },
+    "name": {
+      "type": "string",
+      "description": "Official name of the instrument"
+    },
+    "exchange": {
+      "type": ["string", "null"],
+      "description": "Exchange identifier (e.g., MIC code or provider-specific code)"
+    }
+  },
+  "required": ["symbol", "name"],
+  "additionalProperties": false
+}
+

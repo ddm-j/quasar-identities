@@ -1,0 +1,10 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Manifest File Schema",
+  "description": "A manifest file containing a list of identity records.",
+  "type": "array",
+  "items": {
+    "$ref": "identity.schema.json"
+  }
+}
+
