@@ -1,3 +1,6 @@
+# Data (api proprietary)
+data/raw/eodhd/
+
 # Python
 __pycache__/
 *.py[cod]
