@@ -9,7 +9,8 @@ The crypto manifest uses a **hybrid enrichment approach** that combines Kaiko's 
 ### Key Innovation: ISIN-Bridged Enrichment
 - **Primary Data**: Kaiko API provides FIGI-based identities with extensive coverage
 - **Alias Enhancement**: ANNA Service Bureau data adds symbol aliases via ISIN matching
-- **Result**: 7,476 enriched records with 20 additional aliases for enhanced recognition
+- **FIGI Integrity**: Duplicate resolution ensures 100% FIGI uniqueness
+- **Result**: 7,466 enriched records with 20 additional aliases for enhanced recognition
 
 ## Data Sources
 
@@ -35,14 +36,19 @@ Raw ANNA data is processed into clean ISIN-based identities. See [docs/crypto_an
 **Purpose**: Creates reference dataset for ISIN-based enrichment
 
 ### Stage 2: Kaiko Enrichment (Final)
-Kaiko data is enriched with ANNA aliases via ISIN matching to create the canonical manifest.
+Kaiko data is enriched with ANNA aliases via ISIN matching and resolved for FIGI duplicates to create the canonical manifest.
+
+**Processing Steps**:
+1. ISIN-based alias enrichment
+2. FIGI duplicate resolution (merge same-name, drop different-name)
+3. Schema validation and final deduplication
 
 **Input**:
 - Raw Kaiko CSV (FIGI, ISIN, symbols)
 - Processed ANNA data (ISIN reference)
 
-**Output**: `manifests/crypto/crypto.yaml` (7,476 enriched records)
-**Purpose**: Produces final manifest with enhanced symbol recognition
+**Output**: `manifests/crypto/crypto.yaml` (7,466 enriched records)
+**Purpose**: Produces final manifest with enhanced symbol recognition and FIGI uniqueness
 
 ## Raw Data Available
 
@@ -64,7 +70,7 @@ Kaiko data is enriched with ANNA aliases via ISIN matching to create the canonic
 
 ## The Enrichment Algorithm
 
-The `scripts/ingest_kaiko_crypto.py` script performs ISIN-based enrichment using a three-step process:
+The `scripts/ingest_kaiko_crypto.py` script performs ISIN-based enrichment using a four-step process:
 
 ### Step 1: Data Loading
 1.  **Load Kaiko Data**: Import FIGI-based crypto identities from Kaiko CSV.
@@ -78,7 +84,15 @@ For each Kaiko record with an ISIN:
 3.  **Deduplication**: Remove duplicates and create unique alias set.
 4.  **Symbol Update**: Replace single symbol with semicolon-separated aliases.
 
-### Step 3: Manifest Finalization
+### Step 3: FIGI Duplicate Resolution
+Address Kaiko data quality issues where same FIGI is assigned to different assets:
+1.  **FIGI Grouping**: Group records by FIGI identifier.
+2.  **Name Consistency Check**: For FIGIs with multiple records:
+    - **Same Names**: Merge symbols with ";" separator, keep one record.
+    - **Different Names**: Drop all records (maintains data integrity).
+3.  **Uniqueness Guarantee**: Ensures each FIGI maps to exactly one canonical asset.
+
+### Step 4: Manifest Finalization
 1.  **Schema Validation**: Ensure all records conform to identity schema.
 2.  **Deduplication**: Remove duplicate symbols (keeping first occurrence).
 3.  **Sorting**: Sort records by symbol for consistent output.
@@ -106,22 +120,43 @@ ANNA Record: symbol="AVAX;WAVAX", ISIN="XTS6JCBF70N8"
 Result: symbol="AVAX;WAVAX" (added base token alias)
 ```
 
+### Case 4: FIGI Duplicate Resolution
+
+**Same Name Merge:**
+```
+Duplicate FIGI KKG00000HN36:
+- Record 1: symbol="GXS", name="GXChain"
+- Record 2: symbol="GXC", name="GXChain"
+Result: symbol="GXC;GXS", name="GXChain" (1 record kept)
+```
+
+**Different Name Drop:**
+```
+Duplicate FIGI KKG00000DLJ7:
+- Record 1: symbol="BST", name="Blocksquare Token"
+- Record 2: symbol="WILD", name="Wilder World"
+- Record 3: symbol="RLTM", name="Reality Metaverse"
+Result: All 3 records dropped (ambiguous asset identity)
+```
+
 ## Manifest Characteristics
 
 ### Coverage & Quality
 | Metric | Value | Notes |
 | :--- | :--- | :--- |
-| **Total Records** | 7,476 | 4.9x more than ANNA-only (1,534) |
+| **Total Records** | 7,466 | After FIGI duplicate resolution (from 7,476) |
 | **ISIN Coverage** | 98% | 147/150 Kaiko ISINs matched to ANNA |
 | **Enriched Records** | 19 | Records enhanced with additional aliases |
 | **Additional Aliases** | 20 | Total aliases added through enrichment |
+| **FIGI Uniqueness** | 100% | All FIGIs are unique after duplicate resolution |
 | **Schema Compliance** | 100% | All records pass identity schema validation |
 
 ### Symbol Enhancement Impact
-- **Base Coverage**: 7,476 symbols from Kaiko data
+- **Base Coverage**: 7,466 symbols from Kaiko data (after FIGI duplicate resolution)
 - **Enhanced Recognition**: +20 aliases (13.3% increase for ISIN-enabled records)
 - **Alias Types**: Alternative names, wrapped tokens, legacy symbols
 - **Validation**: All enrichments verified via ISIN matching
+- **FIGI Integrity**: 100% uniqueness guaranteed through duplicate resolution
 
 ## Usage & Integration
 
@@ -146,7 +181,7 @@ matches = find_by_symbol("WBTC")     # Different asset (no match)
 | **Data Sources** | 2 (Kaiko + ANNA) | 2 (Securities + Mappings) |
 | **Enrichment Method** | ISIN matching | Symbol matching |
 | **Alias System** | Semicolon-separated | Single symbols |
-| **Scale** | 7,476 records | 47,085 records |
+| **Scale** | 7,466 records | 47,085 records |
 
 ## Future Enhancements
 

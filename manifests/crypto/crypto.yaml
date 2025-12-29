@@ -618,10 +618,6 @@
   symbol: ATFS
   name: ATFS
   exchange: null
-- figi: KKG00000GVV8
-  symbol: ATHWARRIOR
-  name: Athenian Warrior Token
-  exchange: null
 - figi: KKG00000DNP6
   symbol: ATL
   name: ATLANT
@@ -1489,10 +1485,6 @@
 - figi: KKG00000DJY5
   symbol: BSR
   name: BitSoar
-  exchange: null
-- figi: KKG00000DLJ7
-  symbol: BST
-  name: Blocksquare Token
   exchange: null
 - figi: KKG00000H5F2
   symbol: BSTAR
@@ -4855,7 +4847,7 @@
   name: GroinCoin
   exchange: null
 - figi: KKG00000HN36
-  symbol: GXS
+  symbol: GXC;GXS
   name: GXChain
   exchange: null
 - figi: KKG00000HN45
@@ -5385,10 +5377,6 @@
 - figi: KKG00000HYL2
   symbol: INDIA
   name: IndiaCoin
-  exchange: null
-- figi: KKG00000HYN0
-  symbol: INFCHAIN
-  name: InfChain
   exchange: null
 - figi: KKG00000HYP8
   symbol: INFO
@@ -6073,10 +6061,6 @@
 - figi: KKG00000HV10
   symbol: LINX
   name: Linx
-  exchange: null
-- figi: KKG00000HYN0
-  symbol: LION
-  name: Loaded Lions
   exchange: null
 - figi: KKG0000000B5
   symbol: LIR
@@ -10967,7 +10951,7 @@
   name: Wild Beast Block
   exchange: null
 - figi: KKG000007J45
-  symbol: WBTC
+  symbol: WBTC;WBTCUNI
   name: Wrapped Bitcoin
   exchange: null
 - figi: KKG00000DZQ8
@@ -11049,10 +11033,6 @@
 - figi: KKG00000F109
   symbol: WIKI
   name: WIKI
-  exchange: null
-- figi: KKG00000DLJ7
-  symbol: WILD
-  name: Wilder World
   exchange: null
 - figi: KKG000000LP4
   symbol: WIN
@@ -19741,10 +19721,6 @@
 - figi: KKG000009FD1
   symbol: GUSS
   name: GUSS ONE
-  exchange: null
-- figi: KKG00000HN36
-  symbol: GXC
-  name: GXChain
   exchange: null
 - figi: KKG00000C6J1
   symbol: GXI
@@ -29446,10 +29422,6 @@
   symbol: QMALL
   name: Qmall
   exchange: null
-- figi: KKG00000DLJ7
-  symbol: RLTM
-  name: Reality Metaverse (Old)
-  exchange: null
 - figi: KKG00000FWL8
   symbol: ROCK
   name: Zenrock
@@ -29862,10 +29834,6 @@
   symbol: DEGENI
   name: DEGEN Index
   exchange: null
-- figi: KKG00000GVV8
-  symbol: ATH
-  name: Aethir
-  exchange: null
 - figi: KKG000008YK3
   symbol: DYPV1
   name: DeFi Yield Protocol (old Dypius)
@@ -29893,12 +29861,4 @@
 - figi: KKG00000BL09
   symbol: RHEAP
   name: Rhea Protocol
-  exchange: null
-- figi: KKG000007J45
-  symbol: WBTCUNI
-  name: Wrapped Bitcoin
-  exchange: null
-- figi: KKG00000HYN0
-  symbol: ORCL
-  name: Oracle (Stock)
   exchange: null

@@ -134,7 +134,51 @@ def ingest_kaiko_crypto():
 
     duplicate_count = len(records) - len(deduplicated_records)
     print(f"Removed {duplicate_count:,} duplicate symbol records")
-    print(f"Remaining {len(deduplicated_records):,} unique crypto assets")
+
+    # FIGI duplicate resolution: Handle FIGIs assigned to multiple different assets
+    print("Resolving FIGI duplicates...")
+
+    from collections import defaultdict
+    figi_groups = defaultdict(list)
+
+    # Group records by FIGI
+    for record in deduplicated_records:
+        figi = record.get('figi')
+        if figi:
+            figi_groups[figi].append(record)
+
+    resolved_records = []
+
+    for figi, group_records in figi_groups.items():
+        if len(group_records) == 1:
+            # Single record for this FIGI - keep as is
+            resolved_records.append(group_records[0])
+        else:
+            # Multiple records with same FIGI
+            names = [r['name'] for r in group_records]
+
+            # Check if all names are identical
+            if len(set(names)) == 1:
+                # Same name - merge symbols and keep one record
+                # Collect all unique symbols from all records
+                all_symbols = set()
+                for record in group_records:
+                    symbols = record['symbol'].split(';')
+                    all_symbols.update(symbols)
+
+                # Update the first record with merged symbols
+                merged_record = group_records[0].copy()
+                merged_record['symbol'] = ';'.join(sorted(all_symbols))
+
+                resolved_records.append(merged_record)
+                print(f"Merged FIGI {figi}: {len(group_records)} records -> 1 record with {len(all_symbols)} symbols")
+            else:
+                # Different names - drop all records for this FIGI
+                print(f"Dropped FIGI {figi}: {len(group_records)} records with different names: {set(names)}")
+
+    figi_duplicate_count = len(deduplicated_records) - len(resolved_records)
+    print(f"FIGI duplicate resolution: removed {figi_duplicate_count:,} duplicate records")
+    print(f"Remaining {len(resolved_records):,} unique crypto assets")
 
     # Schema validation
     print("Validating records against schema...")
@@ -142,7 +186,7 @@ def ingest_kaiko_crypto():
     validation_errors = 0
     validated_records = []
 
-    for record in deduplicated_records:
+    for record in resolved_records:
         try:
             validate(instance=record, schema=schema)
             validated_records.append(record)

@@ -74,7 +74,7 @@ To regenerate or update the manifests from raw data, follow these workflows. Not
    python scripts/ingest_kaiko_crypto.py
    ```
    - Input: `data/raw/kaiko/kaiko_asset_figi_YYYYMMDD.csv` + `data/processed/anna/crypto_anna.yaml`
-   - Output: `manifests/crypto/crypto.yaml` (7,476 enriched records)
+   - Output: `manifests/crypto/crypto.yaml` (7,466 enriched records)
 
 #### Securities Manifest Workflow
 
