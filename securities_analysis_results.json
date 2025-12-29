@@ -1,0 +1,8562 @@
+{
+  "summary": {
+    "total_securities": 34664,
+    "unique_isins": 34114,
+    "unique_symbols": 34664,
+    "multi_symbol_isins": 359
+  },
+  "categories": {
+    "same_length": [
+      {
+        "isin": "US0389238686",
+        "symbols": [
+          "ABR-PD",
+          "ABR-PF",
+          "ABR-PE"
+        ],
+        "analysis": {
+          "all_same_length": 6,
+          "common_prefix": "ABR",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.8333333333333334,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US0441037944",
+        "symbols": [
+          "AHT-PH",
+          "AHT-PF",
+          "AHT-PD",
+          "AHT-PI"
+        ],
+        "analysis": {
+          "all_same_length": 6,
+          "common_prefix": "AHT",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.8333333333333334,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "CA4972522052",
+        "symbols": [
+          "ALDVF",
+          "ALDVD"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "ALD",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US06055H6080",
+        "symbols": [
+          "BAC-P-B",
+          "BAC-P-K",
+          "BML-P-H"
+        ],
+        "analysis": {
+          "all_same_length": 7,
+          "most_common_prefix": "BAC",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.7142857142857143,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US46641Q2416",
+        "symbols": [
+          "JAGG",
+          "BBAG"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US46641Q4495",
+        "symbols": [
+          "BBCB",
+          "JIGB"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "CH0012530207",
+        "symbols": [
+          "BCHMY",
+          "BCHMF"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "BCH",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG2003N1135",
+        "symbols": [
+          "BEAGU",
+          "BEAGR"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "BEA",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US25460E8690",
+        "symbols": [
+          "SPDN",
+          "BOED"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US25460G7088",
+        "symbols": [
+          "BRZU",
+          "BOEU"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US0554742090",
+        "symbols": [
+          "BTCM",
+          "SLAI"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "CA09629B4047",
+        "symbols": [
+          "BTCWD",
+          "BTCWF"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "BTC",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "IL0011336851",
+        "symbols": [
+          "MBAI",
+          "CHEK"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US17259U2042",
+        "symbols": [
+          "CION",
+          "CICB"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "CA7393014062",
+        "symbols": [
+          "PNPNF",
+          "CMETF"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US2075978245",
+        "symbols": [
+          "CNLHO",
+          "CNTHO"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US45259A2096",
+        "symbols": [
+          "CPXR",
+          "LGDX",
+          "NACP"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US22112B1044",
+        "symbols": [
+          "CSPKF",
+          "CSPKY"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "CSP",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG2R18K1210",
+        "symbols": [
+          "CSTUF",
+          "CSTWF"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "CST",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US88636J8080",
+        "symbols": [
+          "PLTY",
+          "FIAT",
+          "HOOY",
+          "CVNY",
+          "LLYX"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US86280R7952",
+        "symbols": [
+          "DHSB",
+          "ELCV"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US02072L5571",
+        "symbols": [
+          "DTAN",
+          "FTWO"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US2333311072",
+        "symbols": [
+          "DTG",
+          "DTE"
+        ],
+        "analysis": {
+          "all_same_length": 3,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 3
+        }
+      },
+      {
+        "isin": "US2698097035",
+        "symbols": [
+          "ECCV",
+          "ECCC"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "common_prefix": "ECC",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US46137V4721",
+        "symbols": [
+          "EQWM",
+          "XMHQ"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US30334J2015",
+        "symbols": [
+          "FGMCU",
+          "FGMCR"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "FGM",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US3167738604",
+        "symbols": [
+          "FITBP",
+          "FITBO"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "FIT",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US26922A2895",
+        "symbols": [
+          "SIXG",
+          "FIVG"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "AU000000FMG4",
+        "symbols": [
+          "FSUGY",
+          "FSUMF"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "FSU",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US46436E4035",
+        "symbols": [
+          "STLG",
+          "GARP"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "CA3771304068",
+        "symbols": [
+          "GLASF",
+          "GHBWF"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG386481124",
+        "symbols": [
+          "GIGGW",
+          "GIGGU"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "GIG",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US36164V3050",
+        "symbols": [
+          "GLIBA",
+          "GLIBK"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "GLI",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG4035N1299",
+        "symbols": [
+          "GPATU",
+          "GPATW"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "GPA",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG3852D1236",
+        "symbols": [
+          "GSHRW",
+          "GSHRU"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "GSH",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US65343D1000",
+        "symbols": [
+          "NXEN",
+          "GTOS"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US44045A1025",
+        "symbols": [
+          "HRZN",
+          "HTFB"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "KYG4619M1179",
+        "symbols": [
+          "HSPOU",
+          "HSPOW"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "HSP",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG4627B1297",
+        "symbols": [
+          "HSPTR",
+          "HSPTU"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "HSP",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG4405D1236",
+        "symbols": [
+          "HVIIR",
+          "HVIIU"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "HVI",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US4507371015",
+        "symbols": [
+          "IBDSF",
+          "IBDRY"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "IBD",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US46438F1012",
+        "symbols": [
+          "LDRC",
+          "IBIT"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US26922B7091",
+        "symbols": [
+          "IDUB",
+          "IDME"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US46187W1071",
+        "symbols": [
+          "IVVD",
+          "INVH"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "KYG6001J1076",
+        "symbols": [
+          "IPEX",
+          "MAYA"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "KYG878901282",
+        "symbols": [
+          "ISPOW",
+          "TVAIU"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US48128B6487",
+        "symbols": [
+          "JPM-P-D",
+          "JPM-P-L",
+          "JPM-P-C",
+          "JPM-P-K",
+          "JPM-P-M",
+          "JPM-P-J"
+        ],
+        "analysis": {
+          "all_same_length": 7,
+          "common_prefix": "JPM",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.7142857142857143,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG522581035",
+        "symbols": [
+          "KFIIR",
+          "KFIIU"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "KFI",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG5S86M1187",
+        "symbols": [
+          "LPAAW",
+          "LPAAU"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "LPA",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US45259A5149",
+        "symbols": [
+          "LQPE",
+          "SNTH"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "KYG6004G1183",
+        "symbols": [
+          "MACIW",
+          "MACIU"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "MAC",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG632121151",
+        "symbols": [
+          "MBAVU",
+          "MBAVW"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "MBA",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US59156R8768",
+        "symbols": [
+          "MET-PF",
+          "MET-PA"
+        ],
+        "analysis": {
+          "all_same_length": 6,
+          "common_prefix": "MET",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.8333333333333334,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US0012285013",
+        "symbols": [
+          "MITP",
+          "MITT",
+          "MITN"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "common_prefix": "MIT",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "KYG6301B1196",
+        "symbols": [
+          "MLACU",
+          "MLACR"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "MLA",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US25461A8669",
+        "symbols": [
+          "XOMX",
+          "MSFU"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "KY67190B2033",
+        "symbols": [
+          "OAKUU",
+          "OAKUR"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "OAK",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US6915436074",
+        "symbols": [
+          "OXLCP",
+          "OXLCI"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "OXL",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US28252C2089",
+        "symbols": [
+          "POLCQ",
+          "POLWQ"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "POL",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US74274W4006",
+        "symbols": [
+          "PRIF-PJ",
+          "PRIF-PD"
+        ],
+        "analysis": {
+          "all_same_length": 7,
+          "common_prefix": "PRI",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.8571428571428571,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 6
+        }
+      },
+      {
+        "isin": "US46137V4317",
+        "symbols": [
+          "SPGP",
+          "PXLG"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US46137V4234",
+        "symbols": [
+          "SPVM",
+          "PXLV"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US46137V4564",
+        "symbols": [
+          "PXMV",
+          "XMVM"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US46137V4986",
+        "symbols": [
+          "PXSG",
+          "XSMO"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US46137V4804",
+        "symbols": [
+          "PXSV",
+          "XSVM"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "KYG7375C1244",
+        "symbols": [
+          "RANGR",
+          "RANGU"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "RAN",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US75574U7054",
+        "symbols": [
+          "RC-P-C",
+          "RC-P-E"
+        ],
+        "analysis": {
+          "all_same_length": 6,
+          "common_prefix": "RC-",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.6666666666666666,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "KYG7552W1252",
+        "symbols": [
+          "RIBBR",
+          "RIBBU"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "RIB",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US37954Y7076",
+        "symbols": [
+          "RNRG",
+          "YLCO"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US79550B1035",
+        "symbols": [
+          "SALN",
+          "SLNM"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US80349A2087",
+        "symbols": [
+          "SAZ",
+          "SAR",
+          "SAT"
+        ],
+        "analysis": {
+          "all_same_length": 3,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 3
+        }
+      },
+      {
+        "isin": "US8085247224",
+        "symbols": [
+          "SCCR",
+          "SCHK"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "LU0633102719",
+        "symbols": [
+          "SMSEY",
+          "SMSOF"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "SMS",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US89832Q7455",
+        "symbols": [
+          "TFC-P-I",
+          "TFC-P-O",
+          "TFC-P-R"
+        ],
+        "analysis": {
+          "all_same_length": 7,
+          "common_prefix": "TFC",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.7142857142857143,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US89832Q8107",
+        "symbols": [
+          "TFC-PR",
+          "TFC-PI",
+          "TFC-PO"
+        ],
+        "analysis": {
+          "all_same_length": 6,
+          "common_prefix": "TFC",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.8333333333333334,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "BMG9078F1499",
+        "symbols": [
+          "TRTN-P-C",
+          "TRTN-P-A",
+          "TRTN-P-B",
+          "TRTN-P-D",
+          "TRTN-P-E"
+        ],
+        "analysis": {
+          "all_same_length": 8,
+          "common_prefix": "TRT",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.75,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 6
+        }
+      },
+      {
+        "isin": "US89240C2052",
+        "symbols": [
+          "TYHOY",
+          "TYHOF"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "TYH",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "CA91707P2089",
+        "symbols": [
+          "URNAF",
+          "UBAAF"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG93Y091153",
+        "symbols": [
+          "VCICU",
+          "VCICW"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "VCI",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "DK0061539921",
+        "symbols": [
+          "VWDRY",
+          "VWSYF"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      }
+    ],
+    "common_prefix": [
+      {
+        "isin": "KYG0R38G1040",
+        "symbols": [
+          "AACIU",
+          "XRPN",
+          "AACI"
+        ],
+        "analysis": {
+          "most_common_prefix": "AAC",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US0008471031",
+        "symbols": [
+          "ABP",
+          "ABPWW"
+        ],
+        "analysis": {
+          "common_prefix": "ABP",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US0389238686",
+        "symbols": [
+          "ABR-PD",
+          "ABR-PF",
+          "ABR-PE"
+        ],
+        "analysis": {
+          "all_same_length": 6,
+          "common_prefix": "ABR",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.8333333333333334,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US01861F1021",
+        "symbols": [
+          "AENT",
+          "AENTW"
+        ],
+        "analysis": {
+          "common_prefix": "AEN",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG0136H1020",
+        "symbols": [
+          "AERTW",
+          "AERT"
+        ],
+        "analysis": {
+          "common_prefix": "AER",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG013411171",
+        "symbols": [
+          "AFJKU",
+          "AFJK"
+        ],
+        "analysis": {
+          "common_prefix": "AFJ",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US3131488500",
+        "symbols": [
+          "AGM-P-G",
+          "AGM-PG",
+          "AGM-P-F",
+          "AGM-PD",
+          "AGM-PF",
+          "AGM-P-D",
+          "AGM-PE",
+          "AGM-P-H",
+          "AGM-P-E"
+        ],
+        "analysis": {
+          "common_prefix": "AGM",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US00123Q1040",
+        "symbols": [
+          "AGNC",
+          "AGNCP"
+        ],
+        "analysis": {
+          "common_prefix": "AGN",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US04208T2078",
+        "symbols": [
+          "AHH-PA",
+          "AHH-P-A"
+        ],
+        "analysis": {
+          "common_prefix": "AHH",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "BMG053845019",
+        "symbols": [
+          "AHL-PF",
+          "AHL",
+          "AHL-P-E",
+          "AHL-P-D"
+        ],
+        "analysis": {
+          "common_prefix": "AHL",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US0441037944",
+        "symbols": [
+          "AHT-PH",
+          "AHT-PF",
+          "AHT-PD",
+          "AHT-PI"
+        ],
+        "analysis": {
+          "all_same_length": 6,
+          "common_prefix": "AHT",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.8333333333333334,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US45175Q1067",
+        "symbols": [
+          "AILE",
+          "AILEQ"
+        ],
+        "analysis": {
+          "common_prefix": "AIL",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG0232F1090",
+        "symbols": [
+          "ALCYU",
+          "ALCY"
+        ],
+        "analysis": {
+          "common_prefix": "ALC",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "CA4972522052",
+        "symbols": [
+          "ALDVF",
+          "ALDVD"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "ALD",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US0200023093",
+        "symbols": [
+          "ALL-P-H",
+          "ALL-PB",
+          "ALL-PRI",
+          "ALL-P-I",
+          "ALL-P-B",
+          "ALL-P-J"
+        ],
+        "analysis": {
+          "common_prefix": "ALL",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US02128L2051",
+        "symbols": [
+          "ALTG-P-A",
+          "ALTG-PA"
+        ],
+        "analysis": {
+          "common_prefix": "ALT",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 6
+        }
+      },
+      {
+        "isin": "US02008G1022",
+        "symbols": [
+          "ALUR",
+          "ALUR-WT"
+        ],
+        "analysis": {
+          "common_prefix": "ALU",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US0082521081",
+        "symbols": [
+          "AMG",
+          "MGRE",
+          "MGRD"
+        ],
+        "analysis": {
+          "most_common_prefix": "MGR",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US02665T8760",
+        "symbols": [
+          "AMH-P-H",
+          "AMH-P-G",
+          "AMH-PG"
+        ],
+        "analysis": {
+          "common_prefix": "AMH",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US0209521071",
+        "symbols": [
+          "AMODW",
+          "AMOD",
+          "AOMD"
+        ],
+        "analysis": {
+          "most_common_prefix": "AMO",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US03211Q2003",
+        "symbols": [
+          "AMPGW",
+          "AMPG"
+        ],
+        "analysis": {
+          "common_prefix": "AMP",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG0131Y1008",
+        "symbols": [
+          "ANSCU",
+          "ANSC"
+        ],
+        "analysis": {
+          "common_prefix": "ANS",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US0287191029",
+        "symbols": [
+          "AONCW",
+          "AONC"
+        ],
+        "analysis": {
+          "common_prefix": "AON",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US03769M1062",
+        "symbols": [
+          "APOS",
+          "APO"
+        ],
+        "analysis": {
+          "common_prefix": "APO",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US0423156068",
+        "symbols": [
+          "ARR-P-C",
+          "ARR-PC"
+        ],
+        "analysis": {
+          "common_prefix": "ARR",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US0454872047",
+        "symbols": [
+          "ASB-P-E",
+          "ASB-PF",
+          "ASB-PE"
+        ],
+        "analysis": {
+          "common_prefix": "ASB",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "VGG0544A1378",
+        "symbols": [
+          "ASPC",
+          "ASPCU"
+        ],
+        "analysis": {
+          "common_prefix": "ASP",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "LU0445408270",
+        "symbols": [
+          "ASPSW",
+          "ASPSZ",
+          "ASPS"
+        ],
+        "analysis": {
+          "common_prefix": "ASP",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US04686J2006",
+        "symbols": [
+          "ATH-P-A",
+          "ATH-PE",
+          "ATH-P-E",
+          "ATH-PD",
+          "ATH-PB",
+          "ATH-P-D"
+        ],
+        "analysis": {
+          "common_prefix": "ATH",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG0223V1059",
+        "symbols": [
+          "ATMCW",
+          "ATMC"
+        ],
+        "analysis": {
+          "common_prefix": "ATM",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG0283A1085",
+        "symbols": [
+          "ATMV",
+          "ATMVR",
+          "ATMVU"
+        ],
+        "analysis": {
+          "common_prefix": "ATM",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US0517741072",
+        "symbols": [
+          "AUR",
+          "AUROW"
+        ],
+        "analysis": {
+          "common_prefix": "AUR",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US0605051046",
+        "symbols": [
+          "BAC-PS",
+          "BAC"
+        ],
+        "analysis": {
+          "common_prefix": "BAC",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US06055H6080",
+        "symbols": [
+          "BAC-P-B",
+          "BAC-P-K",
+          "BML-P-H"
+        ],
+        "analysis": {
+          "all_same_length": 7,
+          "most_common_prefix": "BAC",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.7142857142857143,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US0605052291",
+        "symbols": [
+          "BAC-PQ",
+          "BAC-PO",
+          "BAC-P-S",
+          "BAC-P-N",
+          "BAC-P-L",
+          "BAC-PB",
+          "MER-PK",
+          "BAC-PP",
+          "BAC-P-O",
+          "BAC-P-M",
+          "BAC-PE"
+        ],
+        "analysis": {
+          "most_common_prefix": "BAC",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG1169T1040",
+        "symbols": [
+          "BACQU",
+          "BACQ"
+        ],
+        "analysis": {
+          "common_prefix": "BAC",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US96812F1021",
+        "symbols": [
+          "BAER",
+          "BAERW"
+        ],
+        "analysis": {
+          "common_prefix": "BAE",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "CH0012530207",
+        "symbols": [
+          "BCHMY",
+          "BCHMF"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "BCH",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG0705H1039",
+        "symbols": [
+          "BDMDW",
+          "BDMD"
+        ],
+        "analysis": {
+          "common_prefix": "BDM",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG2003N1135",
+        "symbols": [
+          "BEAGU",
+          "BEAGR"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "BEA",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "BMG162581083",
+        "symbols": [
+          "BEPJ",
+          "BEP"
+        ],
+        "analysis": {
+          "common_prefix": "BEP",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "BMG162582313",
+        "symbols": [
+          "BEP-P-A",
+          "BEP-PA"
+        ],
+        "analysis": {
+          "common_prefix": "BEP",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US08774B5084",
+        "symbols": [
+          "BETR",
+          "BETRW"
+        ],
+        "analysis": {
+          "common_prefix": "BET",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US12021E1091",
+        "symbols": [
+          "BFRG",
+          "BFRGW"
+        ],
+        "analysis": {
+          "common_prefix": "BFR",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US8043958797",
+        "symbols": [
+          "BFS-P-E",
+          "BFS-PD",
+          "BFS-PE"
+        ],
+        "analysis": {
+          "common_prefix": "BFS",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US10482B2007",
+        "symbols": [
+          "BHR-P-D",
+          "BHR-P-B",
+          "BHR-PB"
+        ],
+        "analysis": {
+          "common_prefix": "BHR",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "USG162522670",
+        "symbols": [
+          "BIP-PA",
+          "BIP-P-B",
+          "BIP-P-A"
+        ],
+        "analysis": {
+          "common_prefix": "BIP",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG1148A1013",
+        "symbols": [
+          "BKHAU",
+          "BKHA",
+          "BKHAR"
+        ],
+        "analysis": {
+          "common_prefix": "BKH",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US06055H8714",
+        "symbols": [
+          "BML-PG",
+          "BML-P-J"
+        ],
+        "analysis": {
+          "common_prefix": "BML",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US0605056250",
+        "symbols": [
+          "BML-PH",
+          "BML-P-L"
+        ],
+        "analysis": {
+          "common_prefix": "BML",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US0625452075",
+        "symbols": [
+          "BOH-P-A",
+          "BOH-PB",
+          "BOH-PA"
+        ],
+        "analysis": {
+          "common_prefix": "BOH",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG127291105",
+        "symbols": [
+          "BOWN",
+          "BOWNU"
+        ],
+        "analysis": {
+          "common_prefix": "BOW",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US09769B1070",
+        "symbols": [
+          "BSLK",
+          "BSLKW"
+        ],
+        "analysis": {
+          "common_prefix": "BSL",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "CA09629B4047",
+        "symbols": [
+          "BTCWD",
+          "BTCWF"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "BTC",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US09174P1057",
+        "symbols": [
+          "BTMWW",
+          "BTM"
+        ],
+        "analysis": {
+          "common_prefix": "BTM",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "CA0558691014",
+        "symbols": [
+          "BTQ",
+          "BTQQF"
+        ],
+        "analysis": {
+          "common_prefix": "BTQ",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US10950A1060",
+        "symbols": [
+          "BTSG",
+          "BTSGU"
+        ],
+        "analysis": {
+          "common_prefix": "BTS",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US67021W1036",
+        "symbols": [
+          "BURUW",
+          "BURU"
+        ],
+        "analysis": {
+          "common_prefix": "BUR",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US05614L4077",
+        "symbols": [
+          "BW-PA",
+          "BW-P-A"
+        ],
+        "analysis": {
+          "common_prefix": "BW-",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US1086211034",
+        "symbols": [
+          "BWBBP",
+          "BWB"
+        ],
+        "analysis": {
+          "common_prefix": "BWB",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG1993W1096",
+        "symbols": [
+          "CAPN",
+          "CAPNR"
+        ],
+        "analysis": {
+          "common_prefix": "CAP",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG189321063",
+        "symbols": [
+          "CAPT",
+          "CAPTW"
+        ],
+        "analysis": {
+          "common_prefix": "CAP",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US1524131000",
+        "symbols": [
+          "CBC",
+          "CBCY"
+        ],
+        "analysis": {
+          "common_prefix": "CBC",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US12510Q1004",
+        "symbols": [
+          "CCCS",
+          "CCC"
+        ],
+        "analysis": {
+          "common_prefix": "CCC",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US14167R1005",
+        "symbols": [
+          "CCLDO",
+          "CCLD"
+        ],
+        "analysis": {
+          "common_prefix": "CCL",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US14159C1036",
+        "symbols": [
+          "CDIOW",
+          "CDIO"
+        ],
+        "analysis": {
+          "common_prefix": "CDI",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US20678X2053",
+        "symbols": [
+          "CDT",
+          "CDTTW"
+        ],
+        "analysis": {
+          "common_prefix": "CDT",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG4491L1041",
+        "symbols": [
+          "CEPO",
+          "CEP"
+        ],
+        "analysis": {
+          "common_prefix": "CEP",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US16934Q5053",
+        "symbols": [
+          "CIM-P-C",
+          "CIM-P-A",
+          "CIM-P-B",
+          "CIM-PA",
+          "CIM-P-D"
+        ],
+        "analysis": {
+          "common_prefix": "CIM",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US3207033099",
+        "symbols": [
+          "CLDWW",
+          "CLDI"
+        ],
+        "analysis": {
+          "common_prefix": "CLD",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US29415V1098",
+        "symbols": [
+          "COCHW",
+          "COCH"
+        ],
+        "analysis": {
+          "common_prefix": "COC",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US20451Q3020",
+        "symbols": [
+          "CODI-PB",
+          "CODI-P-C",
+          "CODI-P-B",
+          "CODI-P-A"
+        ],
+        "analysis": {
+          "common_prefix": "COD",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 6
+        }
+      },
+      {
+        "isin": "KYG070411098",
+        "symbols": [
+          "COOTW",
+          "COOT"
+        ],
+        "analysis": {
+          "common_prefix": "COO",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US22112B1044",
+        "symbols": [
+          "CSPKF",
+          "CSPKY"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "CSP",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG2R18K1210",
+        "symbols": [
+          "CSTUF",
+          "CSTWF"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "CST",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US2635343070",
+        "symbols": [
+          "CTA-PB",
+          "CTA-P-A"
+        ],
+        "analysis": {
+          "common_prefix": "CTA",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US22948Q2003",
+        "symbols": [
+          "CTO-PA",
+          "CTO-P-A"
+        ],
+        "analysis": {
+          "common_prefix": "CTO",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG5501C1252",
+        "symbols": [
+          "CUBWU",
+          "CUB"
+        ],
+        "analysis": {
+          "common_prefix": "CUB",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US23204G6052",
+        "symbols": [
+          "CUBI-P-F",
+          "CUBI-PF"
+        ],
+        "analysis": {
+          "common_prefix": "CUB",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 6
+        }
+      },
+      {
+        "isin": "US18539C1053",
+        "symbols": [
+          "CWEN-A",
+          "CWENA"
+        ],
+        "analysis": {
+          "common_prefix": "CWE",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US23248B1098",
+        "symbols": [
+          "CXAIW",
+          "CXAI"
+        ],
+        "analysis": {
+          "common_prefix": "CXA",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US25401T5048",
+        "symbols": [
+          "DBRG-PH",
+          "DBRG-P-I",
+          "DBRG-P-H",
+          "DBRG-P-J",
+          "DBRG-PJ"
+        ],
+        "analysis": {
+          "common_prefix": "DBR",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 6
+        }
+      },
+      {
+        "isin": "US25400Q1058",
+        "symbols": [
+          "DJTWW",
+          "DJT"
+        ],
+        "analysis": {
+          "common_prefix": "DJT",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US2538688225",
+        "symbols": [
+          "DLR-P-K",
+          "DLR-PL",
+          "DLR-P-L",
+          "DLR-P-J"
+        ],
+        "analysis": {
+          "common_prefix": "DLR",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG2847J1040",
+        "symbols": [
+          "DMAA",
+          "DMAAU"
+        ],
+        "analysis": {
+          "common_prefix": "DMA",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "MHY2066G1127",
+        "symbols": [
+          "DSX-WT",
+          "DSX-PB",
+          "DSX-P-B"
+        ],
+        "analysis": {
+          "common_prefix": "DSX",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG2853N1060",
+        "symbols": [
+          "DTSQU",
+          "DTSQR",
+          "DTSQ"
+        ],
+        "analysis": {
+          "common_prefix": "DTS",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US26441C5013",
+        "symbols": [
+          "DUK-P-A",
+          "DUK-PA"
+        ],
+        "analysis": {
+          "common_prefix": "DUK",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US26817Q8785",
+        "symbols": [
+          "DX-PC",
+          "DX-P-C"
+        ],
+        "analysis": {
+          "common_prefix": "DX-",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US26605Q3048",
+        "symbols": [
+          "DXF",
+          "DXFFY"
+        ],
+        "analysis": {
+          "common_prefix": "DXF",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US2698081013",
+        "symbols": [
+          "ECCW",
+          "ECC",
+          "ECCU"
+        ],
+        "analysis": {
+          "common_prefix": "ECC",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US2698097035",
+        "symbols": [
+          "ECCV",
+          "ECCC"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "common_prefix": "ECC",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US27877D1046",
+        "symbols": [
+          "ECDA",
+          "ECDAW"
+        ],
+        "analysis": {
+          "common_prefix": "ECD",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US2890742057",
+        "symbols": [
+          "ECF-P-A",
+          "ECF-PA"
+        ],
+        "analysis": {
+          "common_prefix": "ECF",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG292011031",
+        "symbols": [
+          "ECXWW",
+          "ECX"
+        ],
+        "analysis": {
+          "common_prefix": "ECX",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US28852N4060",
+        "symbols": [
+          "EFC-P-A",
+          "EFC-P-D",
+          "EFC-P-B",
+          "EFC-P-C",
+          "EFC-PA",
+          "EFC-PC"
+        ],
+        "analysis": {
+          "common_prefix": "EFC",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG2946P1265",
+        "symbols": [
+          "EGHA",
+          "EGHAU"
+        ],
+        "analysis": {
+          "common_prefix": "EGH",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US2698171020",
+        "symbols": [
+          "EIC",
+          "EICC"
+        ],
+        "analysis": {
+          "common_prefix": "EIC",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US2836782092",
+        "symbols": [
+          "EP-P-C",
+          "EP-PC"
+        ],
+        "analysis": {
+          "common_prefix": "EP-",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US26884U2087",
+        "symbols": [
+          "EPR-P-E",
+          "EPR-P-C",
+          "EPR-P-G",
+          "EPR-PC"
+        ],
+        "analysis": {
+          "common_prefix": "EPR",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US29452E2000",
+        "symbols": [
+          "EQH-PC",
+          "EQH-P-C",
+          "EQH-P-A",
+          "EQH-PA"
+        ],
+        "analysis": {
+          "common_prefix": "EQH",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG3106N1097",
+        "symbols": [
+          "FTW",
+          "EQV",
+          "EQV-UN"
+        ],
+        "analysis": {
+          "most_common_prefix": "EQV",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG3R95P1160",
+        "symbols": [
+          "ESGLW",
+          "ESGL"
+        ],
+        "analysis": {
+          "common_prefix": "ESG",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US2964241044",
+        "symbols": [
+          "ESHA",
+          "ESHAR"
+        ],
+        "analysis": {
+          "common_prefix": "ESH",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US2975841048",
+        "symbols": [
+          "ESLAW",
+          "ESLA"
+        ],
+        "analysis": {
+          "common_prefix": "ESL",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "VGG3142E1051",
+        "symbols": [
+          "EUDAW",
+          "EUDA"
+        ],
+        "analysis": {
+          "common_prefix": "EUD",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US30049H1023",
+        "symbols": [
+          "EVLVW",
+          "EVLV"
+        ],
+        "analysis": {
+          "common_prefix": "EVL",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US1651677353",
+        "symbols": [
+          "EXEEL",
+          "EXEEZ",
+          "EXEEW",
+          "EXE"
+        ],
+        "analysis": {
+          "common_prefix": "EXE",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US3453708451",
+        "symbols": [
+          "F-PC",
+          "F-P-D",
+          "F-P-B",
+          "F-PD",
+          "F-PB",
+          "F-P-C"
+        ],
+        "analysis": {
+          "common_prefix": "F-P",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 3
+        }
+      },
+      {
+        "isin": "US35243J2006",
+        "symbols": [
+          "FBRT-PE",
+          "FBRT-P-E"
+        ],
+        "analysis": {
+          "common_prefix": "FBR",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 6
+        }
+      },
+      {
+        "isin": "KYG3415K1278",
+        "symbols": [
+          "FERAU",
+          "FERA"
+        ],
+        "analysis": {
+          "common_prefix": "FER",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US32043P1066",
+        "symbols": [
+          "FGBIP",
+          "FGBI"
+        ],
+        "analysis": {
+          "common_prefix": "FGB",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US30334J2015",
+        "symbols": [
+          "FGMCU",
+          "FGMCR"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "FGM",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US3205174028",
+        "symbols": [
+          "FHN-P-C",
+          "FHN-PE",
+          "FHN-P-E",
+          "FHN-P-F",
+          "FHN-PF"
+        ],
+        "analysis": {
+          "common_prefix": "FHN",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US3167738604",
+        "symbols": [
+          "FITBP",
+          "FITBO"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "FIT",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US3137452005",
+        "symbols": [
+          "FRT-P-C",
+          "FRT-PC"
+        ],
+        "analysis": {
+          "common_prefix": "FRT",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG3530C1096",
+        "symbols": [
+          "FSHPU",
+          "FSHP"
+        ],
+        "analysis": {
+          "common_prefix": "FSH",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "AU000000FMG4",
+        "symbols": [
+          "FSUGY",
+          "FSUMF"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "FSU",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US3688024013",
+        "symbols": [
+          "GAM-P-B",
+          "GAM-PB"
+        ],
+        "analysis": {
+          "common_prefix": "GAM",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US3976242061",
+        "symbols": [
+          "GEF-B",
+          "GEFB"
+        ],
+        "analysis": {
+          "common_prefix": "GEF",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "KYG386171097",
+        "symbols": [
+          "GIBOW",
+          "GIBO"
+        ],
+        "analysis": {
+          "common_prefix": "GIB",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG386481124",
+        "symbols": [
+          "GIGGW",
+          "GIGGU"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "GIG",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US36164V3050",
+        "symbols": [
+          "GLIBA",
+          "GLIBK"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "GLI",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US37946R3075",
+        "symbols": [
+          "GLP-P-B",
+          "GLP-PB"
+        ],
+        "analysis": {
+          "common_prefix": "GLP",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US37957W2035",
+        "symbols": [
+          "GMRE-P-A",
+          "GMRE-PA"
+        ],
+        "analysis": {
+          "common_prefix": "GMR",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 6
+        }
+      },
+      {
+        "isin": "US3793783008",
+        "symbols": [
+          "GNL-P-D",
+          "GNL-PA",
+          "GNL-P-B",
+          "GNL-P-E",
+          "GNL-P-A",
+          "GNL-PE"
+        ],
+        "analysis": {
+          "common_prefix": "GNL",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG4035N1299",
+        "symbols": [
+          "GPATU",
+          "GPATW"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "GPA",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US38741L1070",
+        "symbols": [
+          "GPMT",
+          "GPMT-PA"
+        ],
+        "analysis": {
+          "common_prefix": "GPM",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "CA38071H1064",
+        "symbols": [
+          "GROY-WT",
+          "GROY"
+        ],
+        "analysis": {
+          "common_prefix": "GRO",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "CA3874372053",
+        "symbols": [
+          "GRP-UN",
+          "GRP-U"
+        ],
+        "analysis": {
+          "common_prefix": "GRP",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US38144G8042",
+        "symbols": [
+          "GS-PD",
+          "GS-P-C",
+          "GS-P-D",
+          "GS-P-A"
+        ],
+        "analysis": {
+          "common_prefix": "GS-",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US38144L8524",
+        "symbols": [
+          "GSC",
+          "GSCE"
+        ],
+        "analysis": {
+          "common_prefix": "GSC",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG3852D1236",
+        "symbols": [
+          "GSHRW",
+          "GSHRU"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "GSH",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "MHY271831213",
+        "symbols": [
+          "GSL-P-B",
+          "GSL-PB"
+        ],
+        "analysis": {
+          "common_prefix": "GSL",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US3893752051",
+        "symbols": [
+          "GTNA",
+          "GTN-A"
+        ],
+        "analysis": {
+          "common_prefix": "GTN",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US4227042052",
+        "symbols": [
+          "HL-P-B",
+          "HL-PB"
+        ],
+        "analysis": {
+          "common_prefix": "HL-",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "CA64550A1075",
+        "symbols": [
+          "HOVRW",
+          "HOVR"
+        ],
+        "analysis": {
+          "common_prefix": "HOV",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "VGG4R52R1030",
+        "symbols": [
+          "HPAI",
+          "HPAIW"
+        ],
+        "analysis": {
+          "common_prefix": "HPA",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US4271051017",
+        "symbols": [
+          "HRDIL",
+          "HRDI"
+        ],
+        "analysis": {
+          "common_prefix": "HRD",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG4619M1179",
+        "symbols": [
+          "HSPOU",
+          "HSPOW"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "HSP",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG4627B1297",
+        "symbols": [
+          "HSPTR",
+          "HSPTU"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "HSP",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG4405D1236",
+        "symbols": [
+          "HVIIR",
+          "HVIIU"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "HVI",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US4101201097",
+        "symbols": [
+          "HWCPZ",
+          "HWC"
+        ],
+        "analysis": {
+          "common_prefix": "HWC",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US44934N1081",
+        "symbols": [
+          "IBAC",
+          "IBACR"
+        ],
+        "analysis": {
+          "common_prefix": "IBA",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US4507371015",
+        "symbols": [
+          "IBDSF",
+          "IBDRY"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "IBD",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US45781V2007",
+        "symbols": [
+          "IIPR-P-A",
+          "IIPR-PA"
+        ],
+        "analysis": {
+          "common_prefix": "IIP",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 6
+        }
+      },
+      {
+        "isin": "US45784M1080",
+        "symbols": [
+          "INV",
+          "INVLW"
+        ],
+        "analysis": {
+          "common_prefix": "INV",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "IL0011745804",
+        "symbols": [
+          "INVZ",
+          "INVZW"
+        ],
+        "analysis": {
+          "common_prefix": "INV",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US46131B5066",
+        "symbols": [
+          "IVR-P-C",
+          "IVR-PC"
+        ],
+        "analysis": {
+          "common_prefix": "IVR",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG651631007",
+        "symbols": [
+          "JOBY",
+          "JOBY-WT"
+        ],
+        "analysis": {
+          "common_prefix": "JOB",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US46625H1005",
+        "symbols": [
+          "JPM-PM",
+          "JPM-PJ",
+          "JPM-PC",
+          "JPM-PL",
+          "JPM-PD",
+          "JPM-PK",
+          "JPM"
+        ],
+        "analysis": {
+          "common_prefix": "JPM",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US48128B6487",
+        "symbols": [
+          "JPM-P-D",
+          "JPM-P-L",
+          "JPM-P-C",
+          "JPM-P-K",
+          "JPM-P-M",
+          "JPM-P-J"
+        ],
+        "analysis": {
+          "all_same_length": 7,
+          "common_prefix": "JPM",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.7142857142857143,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US4932671088",
+        "symbols": [
+          "KEY",
+          "KEY-PL"
+        ],
+        "analysis": {
+          "common_prefix": "KEY",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US4932677028",
+        "symbols": [
+          "KEY-P-K",
+          "KEY-P-L",
+          "KEY-P-J",
+          "KEY-PI"
+        ],
+        "analysis": {
+          "common_prefix": "KEY",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG522581035",
+        "symbols": [
+          "KFIIR",
+          "KFIIU"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "KFI",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US63911H2076",
+        "symbols": [
+          "KITT",
+          "KITTW"
+        ],
+        "analysis": {
+          "common_prefix": "KIT",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US49876K1034",
+        "symbols": [
+          "KLTOW",
+          "KLTO"
+        ],
+        "analysis": {
+          "common_prefix": "KLT",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG531511098",
+        "symbols": [
+          "KWMWW",
+          "KWM"
+        ],
+        "analysis": {
+          "common_prefix": "KWM",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US5322061095",
+        "symbols": [
+          "LIF",
+          "LIFX"
+        ],
+        "analysis": {
+          "common_prefix": "LIF",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US5341878859",
+        "symbols": [
+          "LNC-PD",
+          "LNC-P-D"
+        ],
+        "analysis": {
+          "common_prefix": "LNC",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG5509P1028",
+        "symbols": [
+          "LOKV",
+          "LOKVU"
+        ],
+        "analysis": {
+          "common_prefix": "LOK",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG5S86M1187",
+        "symbols": [
+          "LPAAW",
+          "LPAAU"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "LPA",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US45791D2080",
+        "symbols": [
+          "LUCY",
+          "LUCYW"
+        ],
+        "analysis": {
+          "common_prefix": "LUC",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG5391L1023",
+        "symbols": [
+          "LVRO",
+          "LVROW"
+        ],
+        "analysis": {
+          "common_prefix": "LVR",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG6004G1183",
+        "symbols": [
+          "MACIW",
+          "MACIU"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "MAC",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG632121151",
+        "symbols": [
+          "MBAVU",
+          "MBAVW"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "MBA",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US84757T1051",
+        "symbols": [
+          "MDAIW",
+          "MDAI"
+        ],
+        "analysis": {
+          "common_prefix": "MDA",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US60784B2007",
+        "symbols": [
+          "MDV-PA",
+          "MDV-P-A"
+        ],
+        "analysis": {
+          "common_prefix": "MDV",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US59156R8768",
+        "symbols": [
+          "MET-PF",
+          "MET-PA"
+        ],
+        "analysis": {
+          "all_same_length": 6,
+          "common_prefix": "MET",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.8333333333333334,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US55272X5086",
+        "symbols": [
+          "MFA-PB",
+          "MFA-PC",
+          "MFA-P-C"
+        ],
+        "analysis": {
+          "common_prefix": "MFA",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US0012285013",
+        "symbols": [
+          "MITP",
+          "MITT",
+          "MITN"
+        ],
+        "analysis": {
+          "all_same_length": 4,
+          "common_prefix": "MIT",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US0012283034",
+        "symbols": [
+          "MITT-PC",
+          "MITT-PB",
+          "MITT-P-B",
+          "MITT-P-C",
+          "MITT-P-A"
+        ],
+        "analysis": {
+          "common_prefix": "MIT",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 6
+        }
+      },
+      {
+        "isin": "US5797801074",
+        "symbols": [
+          "MKC-V",
+          "MKCV"
+        ],
+        "analysis": {
+          "common_prefix": "MKC",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "KYG6301B1196",
+        "symbols": [
+          "MLACU",
+          "MLACR"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "MLA",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US60743G1004",
+        "symbols": [
+          "MOBX",
+          "MOBXW"
+        ],
+        "analysis": {
+          "common_prefix": "MOB",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US61747S5047",
+        "symbols": [
+          "MS-P-L",
+          "MS-PQ",
+          "MS-P-F",
+          "MS-P-E",
+          "MS-PA",
+          "MS-PO",
+          "MS-P-A"
+        ],
+        "analysis": {
+          "common_prefix": "MS-",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US61762V8533",
+        "symbols": [
+          "MS-P-I",
+          "MS-PP"
+        ],
+        "analysis": {
+          "common_prefix": "MS-",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US61762V6065",
+        "symbols": [
+          "MS-PK",
+          "MS-P-K"
+        ],
+        "analysis": {
+          "common_prefix": "MS-",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US4569481165",
+        "symbols": [
+          "MSAI",
+          "MSAIW"
+        ],
+        "analysis": {
+          "common_prefix": "MSA",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US5537453087",
+        "symbols": [
+          "MSPR",
+          "MSPRW"
+        ],
+        "analysis": {
+          "common_prefix": "MSP",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US55261F1049",
+        "symbols": [
+          "MTB-PH",
+          "MTB"
+        ],
+        "analysis": {
+          "common_prefix": "MTB",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US55261F8721",
+        "symbols": [
+          "MTB-PJ",
+          "MTB-P-H"
+        ],
+        "analysis": {
+          "common_prefix": "MTB",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "GB00BMXNWH07",
+        "symbols": [
+          "NE-WT",
+          "NE",
+          "NE-WTA"
+        ],
+        "analysis": {
+          "most_common_prefix": "NE-",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US65339F7134",
+        "symbols": [
+          "NEE-P-U",
+          "NEE-PS",
+          "NEE-P-T",
+          "NEE-PN",
+          "NEE-PT"
+        ],
+        "analysis": {
+          "common_prefix": "NEE",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US62913M3051",
+        "symbols": [
+          "NGL-P-B",
+          "NGL-P-C",
+          "NGL-PC"
+        ],
+        "analysis": {
+          "common_prefix": "NGL",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US75630B4023",
+        "symbols": [
+          "NIXXW",
+          "NIXX"
+        ],
+        "analysis": {
+          "common_prefix": "NIX",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US0357108705",
+        "symbols": [
+          "NLY-P-F",
+          "NLY-PJ",
+          "NLY-PF",
+          "NLY-P-G",
+          "NLY-P-I"
+        ],
+        "analysis": {
+          "common_prefix": "NLY",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US12664M2026",
+        "symbols": [
+          "NOEMU",
+          "NOEM",
+          "NOEMW"
+        ],
+        "analysis": {
+          "common_prefix": "NOE",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG6476A1287",
+        "symbols": [
+          "NPACU",
+          "NPAC"
+        ],
+        "analysis": {
+          "common_prefix": "NPA",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG6439S1259",
+        "symbols": [
+          "NTWOU",
+          "NTWO"
+        ],
+        "analysis": {
+          "common_prefix": "NTW",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG507161027",
+        "symbols": [
+          "NVNI",
+          "NVNIW"
+        ],
+        "analysis": {
+          "common_prefix": "NVN",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US65340G2057",
+        "symbols": [
+          "NXDT",
+          "NXDT-PA"
+        ],
+        "analysis": {
+          "common_prefix": "NXD",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US68557F2092",
+        "symbols": [
+          "NXPLW",
+          "NXPL"
+        ],
+        "analysis": {
+          "common_prefix": "NXP",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US68218J1034",
+        "symbols": [
+          "OABIW",
+          "OABI"
+        ],
+        "analysis": {
+          "common_prefix": "OAB",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US6740013007",
+        "symbols": [
+          "OAK-P-B",
+          "OAK-PA",
+          "OAK-P-A"
+        ],
+        "analysis": {
+          "common_prefix": "OAK",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KY67190B2033",
+        "symbols": [
+          "OAKUU",
+          "OAKUR"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "OAK",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US68277K2078",
+        "symbols": [
+          "ONFO",
+          "ONFOW"
+        ],
+        "analysis": {
+          "common_prefix": "ONF",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US68270C1036",
+        "symbols": [
+          "ONMD",
+          "ONMDW"
+        ],
+        "analysis": {
+          "common_prefix": "ONM",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US68840D1028",
+        "symbols": [
+          "OSRHW",
+          "OSRH"
+        ],
+        "analysis": {
+          "common_prefix": "OSR",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US6915431026",
+        "symbols": [
+          "OXLCG",
+          "OXLC"
+        ],
+        "analysis": {
+          "common_prefix": "OXL",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US6915436074",
+        "symbols": [
+          "OXLCP",
+          "OXLCI"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "OXL",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US7244795065",
+        "symbols": [
+          "PBI-PB",
+          "PBI-P-B"
+        ],
+        "analysis": {
+          "common_prefix": "PBI",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG7257A1132",
+        "symbols": [
+          "PCAP",
+          "PCAPU"
+        ],
+        "analysis": {
+          "common_prefix": "PCA",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US6943083054",
+        "symbols": [
+          "PCG-P-H",
+          "PCG-P-I",
+          "PCG-PG",
+          "PCG-P-A",
+          "PCG-PA",
+          "PCG-PB",
+          "PCG-P-G",
+          "PCG-P-B",
+          "PCG-PC",
+          "PCG-PH",
+          "PCG-P-C",
+          "PCG-PE",
+          "PCG-P-D",
+          "PCG-PI",
+          "PCG-P-E"
+        ],
+        "analysis": {
+          "common_prefix": "PCG",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US80359A2050",
+        "symbols": [
+          "PDYNW",
+          "PDYN"
+        ],
+        "analysis": {
+          "common_prefix": "PDY",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US70509V7047",
+        "symbols": [
+          "PEB-P-H",
+          "PEB-PF",
+          "PEB-P-E",
+          "PEB-P-G",
+          "PEB-P-F"
+        ],
+        "analysis": {
+          "common_prefix": "PEB",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "IL0011858912",
+        "symbols": [
+          "PGY",
+          "PGYWW"
+        ],
+        "analysis": {
+          "common_prefix": "PGY",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US7444131053",
+        "symbols": [
+          "PIII",
+          "PIIIW"
+        ],
+        "analysis": {
+          "common_prefix": "PII",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US70931T1034",
+        "symbols": [
+          "PMT",
+          "PMTU"
+        ],
+        "analysis": {
+          "common_prefix": "PMT",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US70931T5092",
+        "symbols": [
+          "PMT-P-A",
+          "PMT-P-B",
+          "PMT-P-C",
+          "PMT-PC"
+        ],
+        "analysis": {
+          "common_prefix": "PMT",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US28252C2089",
+        "symbols": [
+          "POLCQ",
+          "POLWQ"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "POL",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG267451022",
+        "symbols": [
+          "POLE",
+          "POLEU"
+        ],
+        "analysis": {
+          "common_prefix": "POL",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US74274W4006",
+        "symbols": [
+          "PRIF-PJ",
+          "PRIF-PD"
+        ],
+        "analysis": {
+          "all_same_length": 7,
+          "common_prefix": "PRI",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.8571428571428571,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 6
+        }
+      },
+      {
+        "isin": "US74460W6856",
+        "symbols": [
+          "PSA-PF",
+          "PSA-P-F"
+        ],
+        "analysis": {
+          "common_prefix": "PSA",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US74460W6690",
+        "symbols": [
+          "PSA-PG",
+          "PSA-P-G"
+        ],
+        "analysis": {
+          "common_prefix": "PSA",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US74460W5379",
+        "symbols": [
+          "PSA-PS",
+          "PSA-PM",
+          "PSA-PO",
+          "PSA-P-M",
+          "PSA-P-Q",
+          "PSA-P-K",
+          "PSA-P-L",
+          "PSA-P-H",
+          "PSA-P-O",
+          "PSA-P-R",
+          "PSA-P-N",
+          "PSA-P-I",
+          "PSA-P-J"
+        ],
+        "analysis": {
+          "common_prefix": "PSA",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US6936911071",
+        "symbols": [
+          "PSQH",
+          "PSQH-WT"
+        ],
+        "analysis": {
+          "common_prefix": "PSQ",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US74841A1051",
+        "symbols": [
+          "QETA",
+          "QETAR",
+          "QETAU"
+        ],
+        "analysis": {
+          "common_prefix": "QET",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG7314B1041",
+        "symbols": [
+          "QSEA",
+          "QSEAR"
+        ],
+        "analysis": {
+          "common_prefix": "QSE",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US74765K1051",
+        "symbols": [
+          "QSI",
+          "QSIAW"
+        ],
+        "analysis": {
+          "common_prefix": "QSI",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG7375C1244",
+        "symbols": [
+          "RANGR",
+          "RANGU"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "RAN",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US75574U7054",
+        "symbols": [
+          "RC-P-C",
+          "RC-P-E"
+        ],
+        "analysis": {
+          "all_same_length": 6,
+          "common_prefix": "RC-",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.6666666666666666,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "KYG7576K1076",
+        "symbols": [
+          "RDAC",
+          "RDACU"
+        ],
+        "analysis": {
+          "common_prefix": "RDA",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "VGG7606H1082",
+        "symbols": [
+          "RDZNW",
+          "RDZN"
+        ],
+        "analysis": {
+          "common_prefix": "RDZ",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US7588491032",
+        "symbols": [
+          "REGCO",
+          "REG"
+        ],
+        "analysis": {
+          "common_prefix": "REG",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US7591EP7044",
+        "symbols": [
+          "RF-PF",
+          "RF-PC",
+          "RF-P-C",
+          "RF-P-E",
+          "RF-PE"
+        ],
+        "analysis": {
+          "common_prefix": "RF-",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "KYG753891095",
+        "symbols": [
+          "RFAI",
+          "RFAIU"
+        ],
+        "analysis": {
+          "common_prefix": "RFA",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG7552W1252",
+        "symbols": [
+          "RIBBR",
+          "RIBBU"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "RIB",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US76119X1054",
+        "symbols": [
+          "RSVRW",
+          "RSVR"
+        ],
+        "analysis": {
+          "common_prefix": "RSV",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US78137L1052",
+        "symbols": [
+          "RUM",
+          "RUMBW"
+        ],
+        "analysis": {
+          "common_prefix": "RUM",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US7580754023",
+        "symbols": [
+          "RWTP",
+          "RWT"
+        ],
+        "analysis": {
+          "common_prefix": "RWT",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG7852T2021",
+        "symbols": [
+          "SAIH",
+          "SAIHW"
+        ],
+        "analysis": {
+          "common_prefix": "SAI",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "MHY7388L1294",
+        "symbols": [
+          "SB-PD",
+          "SB-P-D",
+          "SB-P-C",
+          "SB-PC"
+        ],
+        "analysis": {
+          "common_prefix": "SB-",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "KYG857271087",
+        "symbols": [
+          "SDA",
+          "SDAWW"
+        ],
+        "analysis": {
+          "common_prefix": "SDA",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG8118C1087",
+        "symbols": [
+          "SDHIU",
+          "SDHI"
+        ],
+        "analysis": {
+          "common_prefix": "SDH",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US8549361017",
+        "symbols": [
+          "SDSTW",
+          "SDST"
+        ],
+        "analysis": {
+          "common_prefix": "SDS",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US8606308703",
+        "symbols": [
+          "SF-PC",
+          "SF-PD",
+          "SF-P-C",
+          "SF-P-D"
+        ],
+        "analysis": {
+          "common_prefix": "SF-",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US8244303009",
+        "symbols": [
+          "SHFSW",
+          "SHFS"
+        ],
+        "analysis": {
+          "common_prefix": "SHF",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US8678928040",
+        "symbols": [
+          "SHO-P-H",
+          "SHO-PH",
+          "SHO-P-I",
+          "SHO-PI"
+        ],
+        "analysis": {
+          "common_prefix": "SHO",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US83422N1054",
+        "symbols": [
+          "SLDPW",
+          "SLDP"
+        ],
+        "analysis": {
+          "common_prefix": "SLD",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "LU0633102719",
+        "symbols": [
+          "SMSEY",
+          "SMSOF"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "SMS",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US8361001071",
+        "symbols": [
+          "SOUNW",
+          "SOUN"
+        ],
+        "analysis": {
+          "common_prefix": "SOU",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US8288068856",
+        "symbols": [
+          "SPG-PJ",
+          "SPG-P-J"
+        ],
+        "analysis": {
+          "common_prefix": "SPG",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US20460L1044",
+        "symbols": [
+          "SPWR",
+          "SPWRW"
+        ],
+        "analysis": {
+          "common_prefix": "SPW",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US84857L3096",
+        "symbols": [
+          "SR-P-A",
+          "SR-PA"
+        ],
+        "analysis": {
+          "common_prefix": "SR-",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US83006G1040",
+        "symbols": [
+          "SXTPW",
+          "SXTP"
+        ],
+        "analysis": {
+          "common_prefix": "SXT",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US87165B2025",
+        "symbols": [
+          "SYF-P-A",
+          "SYF-PA",
+          "SYF-PB"
+        ],
+        "analysis": {
+          "common_prefix": "SYF",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG8193F1090",
+        "symbols": [
+          "SZZLR",
+          "SZZL"
+        ],
+        "analysis": {
+          "common_prefix": "SZZ",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US00206R5081",
+        "symbols": [
+          "T-P-A",
+          "T-P-C",
+          "T-PA"
+        ],
+        "analysis": {
+          "common_prefix": "T-P",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 3
+        }
+      },
+      {
+        "isin": "US89278D1090",
+        "symbols": [
+          "TBMC",
+          "TBMCR"
+        ],
+        "analysis": {
+          "common_prefix": "TBM",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US88224Q1076",
+        "symbols": [
+          "TCBI",
+          "TCBIO"
+        ],
+        "analysis": {
+          "common_prefix": "TCB",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US8803491054",
+        "symbols": [
+          "TEN-P-F",
+          "TEN-PF",
+          "TEN-P-E"
+        ],
+        "analysis": {
+          "common_prefix": "TEN",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US89832Q7455",
+        "symbols": [
+          "TFC-P-I",
+          "TFC-P-O",
+          "TFC-P-R"
+        ],
+        "analysis": {
+          "all_same_length": 7,
+          "common_prefix": "TFC",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.7142857142857143,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US89832Q8107",
+        "symbols": [
+          "TFC-PR",
+          "TFC-PI",
+          "TFC-PO"
+        ],
+        "analysis": {
+          "all_same_length": 6,
+          "common_prefix": "TFC",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.8333333333333334,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US89679E3009",
+        "symbols": [
+          "TFINP",
+          "TFIN"
+        ],
+        "analysis": {
+          "common_prefix": "TFI",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "ID1000129000",
+        "symbols": [
+          "TLK",
+          "TLKMF"
+        ],
+        "analysis": {
+          "common_prefix": "TLK",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US87422Q1094",
+        "symbols": [
+          "TLN",
+          "TLNE"
+        ],
+        "analysis": {
+          "common_prefix": "TLN",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US89680M1018",
+        "symbols": [
+          "TLSI",
+          "TLSIW"
+        ],
+        "analysis": {
+          "common_prefix": "TLS",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "BMG9078F1499",
+        "symbols": [
+          "TRTN-P-C",
+          "TRTN-P-A",
+          "TRTN-P-B",
+          "TRTN-P-D",
+          "TRTN-P-E"
+        ],
+        "analysis": {
+          "all_same_length": 8,
+          "common_prefix": "TRT",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.75,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 6
+        }
+      },
+      {
+        "isin": "US87266M2061",
+        "symbols": [
+          "TRTX-P-C",
+          "TRTX-PC"
+        ],
+        "analysis": {
+          "common_prefix": "TRT",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 6
+        }
+      },
+      {
+        "isin": "KYG8772L1216",
+        "symbols": [
+          "TVACU",
+          "TVA"
+        ],
+        "analysis": {
+          "common_prefix": "TVA",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US88165K1016",
+        "symbols": [
+          "TVGNW",
+          "TVGN"
+        ],
+        "analysis": {
+          "common_prefix": "TVG",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US90187B8046",
+        "symbols": [
+          "TWO",
+          "TWOD"
+        ],
+        "analysis": {
+          "common_prefix": "TWO",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US90187B2007",
+        "symbols": [
+          "TWO-PA",
+          "TWO-P-B",
+          "TWO-P-C",
+          "TWO-P-A"
+        ],
+        "analysis": {
+          "common_prefix": "TWO",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US89240C2052",
+        "symbols": [
+          "TYHOY",
+          "TYHOF"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "TYH",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US91060H1086",
+        "symbols": [
+          "UHGWW",
+          "UHG"
+        ],
+        "analysis": {
+          "common_prefix": "UHG",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US9030025095",
+        "symbols": [
+          "UMH-P-D",
+          "UMH-PD"
+        ],
+        "analysis": {
+          "common_prefix": "UMH",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US91733P1075",
+        "symbols": [
+          "USAR",
+          "USARW"
+        ],
+        "analysis": {
+          "common_prefix": "USA",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US9029733048",
+        "symbols": [
+          "USB",
+          "USB-PS"
+        ],
+        "analysis": {
+          "common_prefix": "USB",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US9029731554",
+        "symbols": [
+          "USB-P-S",
+          "USB-PH",
+          "USB-P-Q",
+          "USB-P-H",
+          "USB-P-R",
+          "USB-PQ",
+          "USB-PR"
+        ],
+        "analysis": {
+          "common_prefix": "USB",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG93Y0A1201",
+        "symbols": [
+          "UYSC",
+          "UYSCU",
+          "UYSCR"
+        ],
+        "analysis": {
+          "common_prefix": "UYS",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG93A7H1041",
+        "symbols": [
+          "VACHW",
+          "VACH"
+        ],
+        "analysis": {
+          "common_prefix": "VAC",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG93Y091153",
+        "symbols": [
+          "VCICU",
+          "VCICW"
+        ],
+        "analysis": {
+          "all_same_length": 5,
+          "common_prefix": "VCI",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US6934891226",
+        "symbols": [
+          "VEEAW",
+          "VEEA"
+        ],
+        "analysis": {
+          "common_prefix": "VEE",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US9290428443",
+        "symbols": [
+          "VNO-P-N",
+          "VNO-PN",
+          "VNO-PL",
+          "VNO-P-L",
+          "VNO-P-O",
+          "VNO-P-M"
+        ],
+        "analysis": {
+          "common_prefix": "VNO",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US92919Y1029",
+        "symbols": [
+          "VSEEW",
+          "VSEE"
+        ],
+        "analysis": {
+          "common_prefix": "VSE",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US9388241096",
+        "symbols": [
+          "WAFDP",
+          "WAFD"
+        ],
+        "analysis": {
+          "common_prefix": "WAF",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "JE00BPG99318",
+        "symbols": [
+          "WALDW",
+          "WALD"
+        ],
+        "analysis": {
+          "common_prefix": "WAL",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US9478905055",
+        "symbols": [
+          "WBS-P-G",
+          "WBS-P-F",
+          "WBS-PF"
+        ],
+        "analysis": {
+          "common_prefix": "WBS",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG9513S1104",
+        "symbols": [
+          "WBUYD",
+          "WBUY"
+        ],
+        "analysis": {
+          "common_prefix": "WBU",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG9R39C1291",
+        "symbols": [
+          "WENNU",
+          "WENN"
+        ],
+        "analysis": {
+          "common_prefix": "WEN",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US94988U1280",
+        "symbols": [
+          "WFC-P-A",
+          "WFC-P-C",
+          "WFC-P-L",
+          "WFC-PC",
+          "WFC-P-D",
+          "WFC-P-Y",
+          "WFC-PD",
+          "WFC-P-Z",
+          "WFC-PA"
+        ],
+        "analysis": {
+          "common_prefix": "WFC",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US0844237067",
+        "symbols": [
+          "WRB-P-H",
+          "WRB-P-E",
+          "WRB-PF",
+          "WRB-PH",
+          "WRB-PE",
+          "WRB-P-G",
+          "WRB-P-F",
+          "WRB-PG"
+        ],
+        "analysis": {
+          "common_prefix": "WRB",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US1429221294",
+        "symbols": [
+          "XAGE",
+          "XAGEW"
+        ],
+        "analysis": {
+          "common_prefix": "XAG",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US98419J2069",
+        "symbols": [
+          "XOMA",
+          "XOMAO"
+        ],
+        "analysis": {
+          "common_prefix": "XOM",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "VGG1514D1197",
+        "symbols": [
+          "YHNA",
+          "YHNAU"
+        ],
+        "analysis": {
+          "common_prefix": "YHN",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US45784G3092",
+        "symbols": [
+          "ZCAR",
+          "ZCARW"
+        ],
+        "analysis": {
+          "common_prefix": "ZCA",
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      }
+    ],
+    "common_suffix": [],
+    "sequential_numeric": [],
+    "sequential_alphabetic": [],
+    "with_hyphens": [
+      {
+        "isin": "US0389238686",
+        "symbols": [
+          "ABR-PD",
+          "ABR-PF",
+          "ABR-PE"
+        ],
+        "analysis": {
+          "all_same_length": 6,
+          "common_prefix": "ABR",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.8333333333333334,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US3131488500",
+        "symbols": [
+          "AGM-P-G",
+          "AGM-PG",
+          "AGM-P-F",
+          "AGM-PD",
+          "AGM-PF",
+          "AGM-P-D",
+          "AGM-PE",
+          "AGM-P-H",
+          "AGM-P-E"
+        ],
+        "analysis": {
+          "common_prefix": "AGM",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US04208T2078",
+        "symbols": [
+          "AHH-PA",
+          "AHH-P-A"
+        ],
+        "analysis": {
+          "common_prefix": "AHH",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "BMG053845019",
+        "symbols": [
+          "AHL-PF",
+          "AHL",
+          "AHL-P-E",
+          "AHL-P-D"
+        ],
+        "analysis": {
+          "common_prefix": "AHL",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US0441037944",
+        "symbols": [
+          "AHT-PH",
+          "AHT-PF",
+          "AHT-PD",
+          "AHT-PI"
+        ],
+        "analysis": {
+          "all_same_length": 6,
+          "common_prefix": "AHT",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.8333333333333334,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US0200023093",
+        "symbols": [
+          "ALL-P-H",
+          "ALL-PB",
+          "ALL-PRI",
+          "ALL-P-I",
+          "ALL-P-B",
+          "ALL-P-J"
+        ],
+        "analysis": {
+          "common_prefix": "ALL",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US02128L2051",
+        "symbols": [
+          "ALTG-P-A",
+          "ALTG-PA"
+        ],
+        "analysis": {
+          "common_prefix": "ALT",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 6
+        }
+      },
+      {
+        "isin": "US02008G1022",
+        "symbols": [
+          "ALUR",
+          "ALUR-WT"
+        ],
+        "analysis": {
+          "common_prefix": "ALU",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US02665T8760",
+        "symbols": [
+          "AMH-P-H",
+          "AMH-P-G",
+          "AMH-PG"
+        ],
+        "analysis": {
+          "common_prefix": "AMH",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US0423156068",
+        "symbols": [
+          "ARR-P-C",
+          "ARR-PC"
+        ],
+        "analysis": {
+          "common_prefix": "ARR",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US0454872047",
+        "symbols": [
+          "ASB-P-E",
+          "ASB-PF",
+          "ASB-PE"
+        ],
+        "analysis": {
+          "common_prefix": "ASB",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US04686J2006",
+        "symbols": [
+          "ATH-P-A",
+          "ATH-PE",
+          "ATH-P-E",
+          "ATH-PD",
+          "ATH-PB",
+          "ATH-P-D"
+        ],
+        "analysis": {
+          "common_prefix": "ATH",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US0605051046",
+        "symbols": [
+          "BAC-PS",
+          "BAC"
+        ],
+        "analysis": {
+          "common_prefix": "BAC",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US06055H6080",
+        "symbols": [
+          "BAC-P-B",
+          "BAC-P-K",
+          "BML-P-H"
+        ],
+        "analysis": {
+          "all_same_length": 7,
+          "most_common_prefix": "BAC",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.7142857142857143,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US0605052291",
+        "symbols": [
+          "BAC-PQ",
+          "BAC-PO",
+          "BAC-P-S",
+          "BAC-P-N",
+          "BAC-P-L",
+          "BAC-PB",
+          "MER-PK",
+          "BAC-PP",
+          "BAC-P-O",
+          "BAC-P-M",
+          "BAC-PE"
+        ],
+        "analysis": {
+          "most_common_prefix": "BAC",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "BMG162582313",
+        "symbols": [
+          "BEP-P-A",
+          "BEP-PA"
+        ],
+        "analysis": {
+          "common_prefix": "BEP",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US8043958797",
+        "symbols": [
+          "BFS-P-E",
+          "BFS-PD",
+          "BFS-PE"
+        ],
+        "analysis": {
+          "common_prefix": "BFS",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US10482B2007",
+        "symbols": [
+          "BHR-P-D",
+          "BHR-P-B",
+          "BHR-PB"
+        ],
+        "analysis": {
+          "common_prefix": "BHR",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "USG162522670",
+        "symbols": [
+          "BIP-PA",
+          "BIP-P-B",
+          "BIP-P-A"
+        ],
+        "analysis": {
+          "common_prefix": "BIP",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US06055H8714",
+        "symbols": [
+          "BML-PG",
+          "BML-P-J"
+        ],
+        "analysis": {
+          "common_prefix": "BML",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US0605056250",
+        "symbols": [
+          "BML-PH",
+          "BML-P-L"
+        ],
+        "analysis": {
+          "common_prefix": "BML",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US0625452075",
+        "symbols": [
+          "BOH-P-A",
+          "BOH-PB",
+          "BOH-PA"
+        ],
+        "analysis": {
+          "common_prefix": "BOH",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US05614L4077",
+        "symbols": [
+          "BW-PA",
+          "BW-P-A"
+        ],
+        "analysis": {
+          "common_prefix": "BW-",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US16934Q5053",
+        "symbols": [
+          "CIM-P-C",
+          "CIM-P-A",
+          "CIM-P-B",
+          "CIM-PA",
+          "CIM-P-D"
+        ],
+        "analysis": {
+          "common_prefix": "CIM",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US20451Q3020",
+        "symbols": [
+          "CODI-PB",
+          "CODI-P-C",
+          "CODI-P-B",
+          "CODI-P-A"
+        ],
+        "analysis": {
+          "common_prefix": "COD",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 6
+        }
+      },
+      {
+        "isin": "US2635343070",
+        "symbols": [
+          "CTA-PB",
+          "CTA-P-A"
+        ],
+        "analysis": {
+          "common_prefix": "CTA",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US22948Q2003",
+        "symbols": [
+          "CTO-PA",
+          "CTO-P-A"
+        ],
+        "analysis": {
+          "common_prefix": "CTO",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US23204G6052",
+        "symbols": [
+          "CUBI-P-F",
+          "CUBI-PF"
+        ],
+        "analysis": {
+          "common_prefix": "CUB",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 6
+        }
+      },
+      {
+        "isin": "US18539C1053",
+        "symbols": [
+          "CWEN-A",
+          "CWENA"
+        ],
+        "analysis": {
+          "common_prefix": "CWE",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US25401T5048",
+        "symbols": [
+          "DBRG-PH",
+          "DBRG-P-I",
+          "DBRG-P-H",
+          "DBRG-P-J",
+          "DBRG-PJ"
+        ],
+        "analysis": {
+          "common_prefix": "DBR",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 6
+        }
+      },
+      {
+        "isin": "US46655E1001",
+        "symbols": [
+          "DC",
+          "DC-WT"
+        ],
+        "analysis": {
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US2538688225",
+        "symbols": [
+          "DLR-P-K",
+          "DLR-PL",
+          "DLR-P-L",
+          "DLR-P-J"
+        ],
+        "analysis": {
+          "common_prefix": "DLR",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "MHY2066G1127",
+        "symbols": [
+          "DSX-WT",
+          "DSX-PB",
+          "DSX-P-B"
+        ],
+        "analysis": {
+          "common_prefix": "DSX",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US26441C5013",
+        "symbols": [
+          "DUK-P-A",
+          "DUK-PA"
+        ],
+        "analysis": {
+          "common_prefix": "DUK",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US26817Q8785",
+        "symbols": [
+          "DX-PC",
+          "DX-P-C"
+        ],
+        "analysis": {
+          "common_prefix": "DX-",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US2890742057",
+        "symbols": [
+          "ECF-P-A",
+          "ECF-PA"
+        ],
+        "analysis": {
+          "common_prefix": "ECF",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US28852N4060",
+        "symbols": [
+          "EFC-P-A",
+          "EFC-P-D",
+          "EFC-P-B",
+          "EFC-P-C",
+          "EFC-PA",
+          "EFC-PC"
+        ],
+        "analysis": {
+          "common_prefix": "EFC",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US2836782092",
+        "symbols": [
+          "EP-P-C",
+          "EP-PC"
+        ],
+        "analysis": {
+          "common_prefix": "EP-",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US26884U2087",
+        "symbols": [
+          "EPR-P-E",
+          "EPR-P-C",
+          "EPR-P-G",
+          "EPR-PC"
+        ],
+        "analysis": {
+          "common_prefix": "EPR",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US29452E2000",
+        "symbols": [
+          "EQH-PC",
+          "EQH-P-C",
+          "EQH-P-A",
+          "EQH-PA"
+        ],
+        "analysis": {
+          "common_prefix": "EQH",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG3106N1097",
+        "symbols": [
+          "FTW",
+          "EQV",
+          "EQV-UN"
+        ],
+        "analysis": {
+          "most_common_prefix": "EQV",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US29273V1008",
+        "symbols": [
+          "ET-PI",
+          "ET"
+        ],
+        "analysis": {
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US3453708451",
+        "symbols": [
+          "F-PC",
+          "F-P-D",
+          "F-P-B",
+          "F-PD",
+          "F-PB",
+          "F-P-C"
+        ],
+        "analysis": {
+          "common_prefix": "F-P",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 3
+        }
+      },
+      {
+        "isin": "US35243J2006",
+        "symbols": [
+          "FBRT-PE",
+          "FBRT-P-E"
+        ],
+        "analysis": {
+          "common_prefix": "FBR",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 6
+        }
+      },
+      {
+        "isin": "US3205174028",
+        "symbols": [
+          "FHN-P-C",
+          "FHN-PE",
+          "FHN-P-E",
+          "FHN-P-F",
+          "FHN-PF"
+        ],
+        "analysis": {
+          "common_prefix": "FHN",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US3137452005",
+        "symbols": [
+          "FRT-P-C",
+          "FRT-PC"
+        ],
+        "analysis": {
+          "common_prefix": "FRT",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US3688024013",
+        "symbols": [
+          "GAM-P-B",
+          "GAM-PB"
+        ],
+        "analysis": {
+          "common_prefix": "GAM",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US3976242061",
+        "symbols": [
+          "GEF-B",
+          "GEFB"
+        ],
+        "analysis": {
+          "common_prefix": "GEF",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US37946R3075",
+        "symbols": [
+          "GLP-P-B",
+          "GLP-PB"
+        ],
+        "analysis": {
+          "common_prefix": "GLP",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US37957W2035",
+        "symbols": [
+          "GMRE-P-A",
+          "GMRE-PA"
+        ],
+        "analysis": {
+          "common_prefix": "GMR",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 6
+        }
+      },
+      {
+        "isin": "US3793783008",
+        "symbols": [
+          "GNL-P-D",
+          "GNL-PA",
+          "GNL-P-B",
+          "GNL-P-E",
+          "GNL-P-A",
+          "GNL-PE"
+        ],
+        "analysis": {
+          "common_prefix": "GNL",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US38741L1070",
+        "symbols": [
+          "GPMT",
+          "GPMT-PA"
+        ],
+        "analysis": {
+          "common_prefix": "GPM",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "CA38071H1064",
+        "symbols": [
+          "GROY-WT",
+          "GROY"
+        ],
+        "analysis": {
+          "common_prefix": "GRO",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "CA3874372053",
+        "symbols": [
+          "GRP-UN",
+          "GRP-U"
+        ],
+        "analysis": {
+          "common_prefix": "GRP",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US38144G8042",
+        "symbols": [
+          "GS-PD",
+          "GS-P-C",
+          "GS-P-D",
+          "GS-P-A"
+        ],
+        "analysis": {
+          "common_prefix": "GS-",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "MHY271831213",
+        "symbols": [
+          "GSL-P-B",
+          "GSL-PB"
+        ],
+        "analysis": {
+          "common_prefix": "GSL",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US3893752051",
+        "symbols": [
+          "GTNA",
+          "GTN-A"
+        ],
+        "analysis": {
+          "common_prefix": "GTN",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US4227042052",
+        "symbols": [
+          "HL-P-B",
+          "HL-PB"
+        ],
+        "analysis": {
+          "common_prefix": "HL-",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US45781V2007",
+        "symbols": [
+          "IIPR-P-A",
+          "IIPR-PA"
+        ],
+        "analysis": {
+          "common_prefix": "IIP",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 6
+        }
+      },
+      {
+        "isin": "US46131B5066",
+        "symbols": [
+          "IVR-P-C",
+          "IVR-PC"
+        ],
+        "analysis": {
+          "common_prefix": "IVR",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "KYG651631007",
+        "symbols": [
+          "JOBY",
+          "JOBY-WT"
+        ],
+        "analysis": {
+          "common_prefix": "JOB",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US46625H1005",
+        "symbols": [
+          "JPM-PM",
+          "JPM-PJ",
+          "JPM-PC",
+          "JPM-PL",
+          "JPM-PD",
+          "JPM-PK",
+          "JPM"
+        ],
+        "analysis": {
+          "common_prefix": "JPM",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US48128B6487",
+        "symbols": [
+          "JPM-P-D",
+          "JPM-P-L",
+          "JPM-P-C",
+          "JPM-P-K",
+          "JPM-P-M",
+          "JPM-P-J"
+        ],
+        "analysis": {
+          "all_same_length": 7,
+          "common_prefix": "JPM",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.7142857142857143,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US4932671088",
+        "symbols": [
+          "KEY",
+          "KEY-PL"
+        ],
+        "analysis": {
+          "common_prefix": "KEY",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US4932677028",
+        "symbols": [
+          "KEY-P-K",
+          "KEY-P-L",
+          "KEY-P-J",
+          "KEY-PI"
+        ],
+        "analysis": {
+          "common_prefix": "KEY",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US5341878859",
+        "symbols": [
+          "LNC-PD",
+          "LNC-P-D"
+        ],
+        "analysis": {
+          "common_prefix": "LNC",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US60784B2007",
+        "symbols": [
+          "MDV-PA",
+          "MDV-P-A"
+        ],
+        "analysis": {
+          "common_prefix": "MDV",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US59156R8768",
+        "symbols": [
+          "MET-PF",
+          "MET-PA"
+        ],
+        "analysis": {
+          "all_same_length": 6,
+          "common_prefix": "MET",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.8333333333333334,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US55272X5086",
+        "symbols": [
+          "MFA-PB",
+          "MFA-PC",
+          "MFA-P-C"
+        ],
+        "analysis": {
+          "common_prefix": "MFA",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US0012283034",
+        "symbols": [
+          "MITT-PC",
+          "MITT-PB",
+          "MITT-P-B",
+          "MITT-P-C",
+          "MITT-P-A"
+        ],
+        "analysis": {
+          "common_prefix": "MIT",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 6
+        }
+      },
+      {
+        "isin": "US5797801074",
+        "symbols": [
+          "MKC-V",
+          "MKCV"
+        ],
+        "analysis": {
+          "common_prefix": "MKC",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US61747S5047",
+        "symbols": [
+          "MS-P-L",
+          "MS-PQ",
+          "MS-P-F",
+          "MS-P-E",
+          "MS-PA",
+          "MS-PO",
+          "MS-P-A"
+        ],
+        "analysis": {
+          "common_prefix": "MS-",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US61762V8533",
+        "symbols": [
+          "MS-P-I",
+          "MS-PP"
+        ],
+        "analysis": {
+          "common_prefix": "MS-",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US61762V6065",
+        "symbols": [
+          "MS-PK",
+          "MS-P-K"
+        ],
+        "analysis": {
+          "common_prefix": "MS-",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US55261F1049",
+        "symbols": [
+          "MTB-PH",
+          "MTB"
+        ],
+        "analysis": {
+          "common_prefix": "MTB",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US55261F8721",
+        "symbols": [
+          "MTB-PJ",
+          "MTB-P-H"
+        ],
+        "analysis": {
+          "common_prefix": "MTB",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "GB00BMXNWH07",
+        "symbols": [
+          "NE-WT",
+          "NE",
+          "NE-WTA"
+        ],
+        "analysis": {
+          "most_common_prefix": "NE-",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US65339F7134",
+        "symbols": [
+          "NEE-P-U",
+          "NEE-PS",
+          "NEE-P-T",
+          "NEE-PN",
+          "NEE-PT"
+        ],
+        "analysis": {
+          "common_prefix": "NEE",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US62913M3051",
+        "symbols": [
+          "NGL-P-B",
+          "NGL-P-C",
+          "NGL-PC"
+        ],
+        "analysis": {
+          "common_prefix": "NGL",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US0357108705",
+        "symbols": [
+          "NLY-P-F",
+          "NLY-PJ",
+          "NLY-PF",
+          "NLY-P-G",
+          "NLY-P-I"
+        ],
+        "analysis": {
+          "common_prefix": "NLY",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US65340G2057",
+        "symbols": [
+          "NXDT",
+          "NXDT-PA"
+        ],
+        "analysis": {
+          "common_prefix": "NXD",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US6740013007",
+        "symbols": [
+          "OAK-P-B",
+          "OAK-PA",
+          "OAK-P-A"
+        ],
+        "analysis": {
+          "common_prefix": "OAK",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US7244795065",
+        "symbols": [
+          "PBI-PB",
+          "PBI-P-B"
+        ],
+        "analysis": {
+          "common_prefix": "PBI",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US6943083054",
+        "symbols": [
+          "PCG-P-H",
+          "PCG-P-I",
+          "PCG-PG",
+          "PCG-P-A",
+          "PCG-PA",
+          "PCG-PB",
+          "PCG-P-G",
+          "PCG-P-B",
+          "PCG-PC",
+          "PCG-PH",
+          "PCG-P-C",
+          "PCG-PE",
+          "PCG-P-D",
+          "PCG-PI",
+          "PCG-P-E"
+        ],
+        "analysis": {
+          "common_prefix": "PCG",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US70509V7047",
+        "symbols": [
+          "PEB-P-H",
+          "PEB-PF",
+          "PEB-P-E",
+          "PEB-P-G",
+          "PEB-P-F"
+        ],
+        "analysis": {
+          "common_prefix": "PEB",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US70931T5092",
+        "symbols": [
+          "PMT-P-A",
+          "PMT-P-B",
+          "PMT-P-C",
+          "PMT-PC"
+        ],
+        "analysis": {
+          "common_prefix": "PMT",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US74274W4006",
+        "symbols": [
+          "PRIF-PJ",
+          "PRIF-PD"
+        ],
+        "analysis": {
+          "all_same_length": 7,
+          "common_prefix": "PRI",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.8571428571428571,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 6
+        }
+      },
+      {
+        "isin": "US74460W6856",
+        "symbols": [
+          "PSA-PF",
+          "PSA-P-F"
+        ],
+        "analysis": {
+          "common_prefix": "PSA",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US74460W6690",
+        "symbols": [
+          "PSA-PG",
+          "PSA-P-G"
+        ],
+        "analysis": {
+          "common_prefix": "PSA",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US74460W5379",
+        "symbols": [
+          "PSA-PS",
+          "PSA-PM",
+          "PSA-PO",
+          "PSA-P-M",
+          "PSA-P-Q",
+          "PSA-P-K",
+          "PSA-P-L",
+          "PSA-P-H",
+          "PSA-P-O",
+          "PSA-P-R",
+          "PSA-P-N",
+          "PSA-P-I",
+          "PSA-P-J"
+        ],
+        "analysis": {
+          "common_prefix": "PSA",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US6936911071",
+        "symbols": [
+          "PSQH",
+          "PSQH-WT"
+        ],
+        "analysis": {
+          "common_prefix": "PSQ",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US75574U7054",
+        "symbols": [
+          "RC-P-C",
+          "RC-P-E"
+        ],
+        "analysis": {
+          "all_same_length": 6,
+          "common_prefix": "RC-",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.6666666666666666,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US7591EP7044",
+        "symbols": [
+          "RF-PF",
+          "RF-PC",
+          "RF-P-C",
+          "RF-P-E",
+          "RF-PE"
+        ],
+        "analysis": {
+          "common_prefix": "RF-",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "MHY7388L1294",
+        "symbols": [
+          "SB-PD",
+          "SB-P-D",
+          "SB-P-C",
+          "SB-PC"
+        ],
+        "analysis": {
+          "common_prefix": "SB-",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US8606308703",
+        "symbols": [
+          "SF-PC",
+          "SF-PD",
+          "SF-P-C",
+          "SF-P-D"
+        ],
+        "analysis": {
+          "common_prefix": "SF-",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US8678928040",
+        "symbols": [
+          "SHO-P-H",
+          "SHO-PH",
+          "SHO-P-I",
+          "SHO-PI"
+        ],
+        "analysis": {
+          "common_prefix": "SHO",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US8288068856",
+        "symbols": [
+          "SPG-PJ",
+          "SPG-P-J"
+        ],
+        "analysis": {
+          "common_prefix": "SPG",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US84857L3096",
+        "symbols": [
+          "SR-P-A",
+          "SR-PA"
+        ],
+        "analysis": {
+          "common_prefix": "SR-",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 4
+        }
+      },
+      {
+        "isin": "US87165B2025",
+        "symbols": [
+          "SYF-P-A",
+          "SYF-PA",
+          "SYF-PB"
+        ],
+        "analysis": {
+          "common_prefix": "SYF",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US00206R5081",
+        "symbols": [
+          "T-P-A",
+          "T-P-C",
+          "T-PA"
+        ],
+        "analysis": {
+          "common_prefix": "T-P",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 3
+        }
+      },
+      {
+        "isin": "US8803491054",
+        "symbols": [
+          "TEN-P-F",
+          "TEN-PF",
+          "TEN-P-E"
+        ],
+        "analysis": {
+          "common_prefix": "TEN",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US89832Q7455",
+        "symbols": [
+          "TFC-P-I",
+          "TFC-P-O",
+          "TFC-P-R"
+        ],
+        "analysis": {
+          "all_same_length": 7,
+          "common_prefix": "TFC",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.7142857142857143,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US89832Q8107",
+        "symbols": [
+          "TFC-PR",
+          "TFC-PI",
+          "TFC-PO"
+        ],
+        "analysis": {
+          "all_same_length": 6,
+          "common_prefix": "TFC",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.8333333333333334,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "BMG9078F1499",
+        "symbols": [
+          "TRTN-P-C",
+          "TRTN-P-A",
+          "TRTN-P-B",
+          "TRTN-P-D",
+          "TRTN-P-E"
+        ],
+        "analysis": {
+          "all_same_length": 8,
+          "common_prefix": "TRT",
+          "all_have_hyphen": true,
+          "uniform_case_ratio": 0.75,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 6
+        }
+      },
+      {
+        "isin": "US87266M2061",
+        "symbols": [
+          "TRTX-P-C",
+          "TRTX-PC"
+        ],
+        "analysis": {
+          "common_prefix": "TRT",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 6
+        }
+      },
+      {
+        "isin": "US90187B2007",
+        "symbols": [
+          "TWO-PA",
+          "TWO-P-B",
+          "TWO-P-C",
+          "TWO-P-A"
+        ],
+        "analysis": {
+          "common_prefix": "TWO",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US9030025095",
+        "symbols": [
+          "UMH-P-D",
+          "UMH-PD"
+        ],
+        "analysis": {
+          "common_prefix": "UMH",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US9029733048",
+        "symbols": [
+          "USB",
+          "USB-PS"
+        ],
+        "analysis": {
+          "common_prefix": "USB",
+          "some_have_hyphen": true,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US9029731554",
+        "symbols": [
+          "USB-P-S",
+          "USB-PH",
+          "USB-P-Q",
+          "USB-P-H",
+          "USB-P-R",
+          "USB-PQ",
+          "USB-PR"
+        ],
+        "analysis": {
+          "common_prefix": "USB",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US9290428443",
+        "symbols": [
+          "VNO-P-N",
+          "VNO-PN",
+          "VNO-PL",
+          "VNO-P-L",
+          "VNO-P-O",
+          "VNO-P-M"
+        ],
+        "analysis": {
+          "common_prefix": "VNO",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US9478905055",
+        "symbols": [
+          "WBS-P-G",
+          "WBS-P-F",
+          "WBS-PF"
+        ],
+        "analysis": {
+          "common_prefix": "WBS",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US94988U1280",
+        "symbols": [
+          "WFC-P-A",
+          "WFC-P-C",
+          "WFC-P-L",
+          "WFC-PC",
+          "WFC-P-D",
+          "WFC-P-Y",
+          "WFC-PD",
+          "WFC-P-Z",
+          "WFC-PA"
+        ],
+        "analysis": {
+          "common_prefix": "WFC",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      },
+      {
+        "isin": "US0844237067",
+        "symbols": [
+          "WRB-P-H",
+          "WRB-P-E",
+          "WRB-PF",
+          "WRB-PH",
+          "WRB-PE",
+          "WRB-P-G",
+          "WRB-P-F",
+          "WRB-PG"
+        ],
+        "analysis": {
+          "common_prefix": "WRB",
+          "all_have_hyphen": true,
+          "uniform_digit_count": 0,
+          "uniform_letter_count": 5
+        }
+      }
+    ],
+    "with_dots": [],
+    "case_variations": [],
+    "other": [
+      {
+        "isin": "US00370M1036",
+        "symbols": [
+          "ABVX",
+          "AAVXF"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US9116841084",
+        "symbols": [
+          "USM",
+          "AD",
+          "UZF"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "IE00BLRPRP89",
+        "symbols": [
+          "ALTNF",
+          "ALCE"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG1827K1076",
+        "symbols": [
+          "ALF",
+          "CEPT"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "KYG7244A1195",
+        "symbols": [
+          "AURE",
+          "PWM"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US15234Q2075",
+        "symbols": [
+          "EBR",
+          "AXIA"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US05614L2097",
+        "symbols": [
+          "BW",
+          "BWSN",
+          "BWNB"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US26922A7019",
+        "symbols": [
+          "DVP",
+          "DEEP"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US29082A1079",
+        "symbols": [
+          "ERJ",
+          "EMBJ"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US78463X1037",
+        "symbols": [
+          "FEU",
+          "SPEU"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US30190A1043",
+        "symbols": [
+          "FG",
+          "FGSN",
+          "FGN"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US8322482071",
+        "symbols": [
+          "FLLLF",
+          "SFD"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US36472T1097",
+        "symbols": [
+          "GCI",
+          "TDAY"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US74767N1072",
+        "symbols": [
+          "QSG",
+          "HERE"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US4642871275",
+        "symbols": [
+          "ILCB",
+          "JKD"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US4642871192",
+        "symbols": [
+          "JKE",
+          "ILCG"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US4642881092",
+        "symbols": [
+          "JKF",
+          "ILCV"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US44975P1030",
+        "symbols": [
+          "NBP",
+          "IMAB"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US4642882082",
+        "symbols": [
+          "IMCB",
+          "JKG"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US4642883072",
+        "symbols": [
+          "JKH",
+          "IMCG"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US4642884062",
+        "symbols": [
+          "JKI",
+          "IMCV"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US4642885051",
+        "symbols": [
+          "ISCB",
+          "JKJ"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US4642886042",
+        "symbols": [
+          "ISCG",
+          "JKK"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US4642887032",
+        "symbols": [
+          "ISCV",
+          "JKL"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US78464A6727",
+        "symbols": [
+          "ITE",
+          "SPTI"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US97717X1569",
+        "symbols": [
+          "SFIG",
+          "QHY"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US46137V3814",
+        "symbols": [
+          "RCD",
+          "RSPD"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US46137V3244",
+        "symbols": [
+          "RSPN",
+          "RGI"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US46137V3731",
+        "symbols": [
+          "RSPS",
+          "RHS"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US46137V3160",
+        "symbols": [
+          "RSPM",
+          "RTM"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US82837P4081",
+        "symbols": [
+          "SI",
+          "SICPQ"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      },
+      {
+        "isin": "US8425871071",
+        "symbols": [
+          "SO",
+          "SOJF"
+        ],
+        "analysis": {
+          "uniform_case_ratio": 1.0,
+          "uniform_digit_count": 0
+        }
+      }
+    ]
+  },
+  "detailed_multi_symbol_isins": {
+    "KYG0R38G1040": [
+      "AACIU",
+      "XRPN",
+      "AACI"
+    ],
+    "US00370M1036": [
+      "ABVX",
+      "AAVXF"
+    ],
+    "US0008471031": [
+      "ABP",
+      "ABPWW"
+    ],
+    "US0389238686": [
+      "ABR-PD",
+      "ABR-PF",
+      "ABR-PE"
+    ],
+    "US9116841084": [
+      "USM",
+      "AD",
+      "UZF"
+    ],
+    "US01861F1021": [
+      "AENT",
+      "AENTW"
+    ],
+    "KYG0136H1020": [
+      "AERTW",
+      "AERT"
+    ],
+    "KYG013411171": [
+      "AFJKU",
+      "AFJK"
+    ],
+    "US3131488500": [
+      "AGM-P-G",
+      "AGM-PG",
+      "AGM-P-F",
+      "AGM-PD",
+      "AGM-PF",
+      "AGM-P-D",
+      "AGM-PE",
+      "AGM-P-H",
+      "AGM-P-E"
+    ],
+    "US00123Q1040": [
+      "AGNC",
+      "AGNCP"
+    ],
+    "US04208T2078": [
+      "AHH-PA",
+      "AHH-P-A"
+    ],
+    "BMG053845019": [
+      "AHL-PF",
+      "AHL",
+      "AHL-P-E",
+      "AHL-P-D"
+    ],
+    "US0441037944": [
+      "AHT-PH",
+      "AHT-PF",
+      "AHT-PD",
+      "AHT-PI"
+    ],
+    "US45175Q1067": [
+      "AILE",
+      "AILEQ"
+    ],
+    "IE00BLRPRP89": [
+      "ALTNF",
+      "ALCE"
+    ],
+    "KYG0232F1090": [
+      "ALCYU",
+      "ALCY"
+    ],
+    "CA4972522052": [
+      "ALDVF",
+      "ALDVD"
+    ],
+    "KYG1827K1076": [
+      "ALF",
+      "CEPT"
+    ],
+    "US0200023093": [
+      "ALL-P-H",
+      "ALL-PB",
+      "ALL-PRI",
+      "ALL-P-I",
+      "ALL-P-B",
+      "ALL-P-J"
+    ],
+    "US02128L2051": [
+      "ALTG-P-A",
+      "ALTG-PA"
+    ],
+    "US02008G1022": [
+      "ALUR",
+      "ALUR-WT"
+    ],
+    "US0082521081": [
+      "AMG",
+      "MGRE",
+      "MGRD"
+    ],
+    "US02665T8760": [
+      "AMH-P-H",
+      "AMH-P-G",
+      "AMH-PG"
+    ],
+    "US0209521071": [
+      "AMODW",
+      "AMOD",
+      "AOMD"
+    ],
+    "US03211Q2003": [
+      "AMPGW",
+      "AMPG"
+    ],
+    "KYG0131Y1008": [
+      "ANSCU",
+      "ANSC"
+    ],
+    "US0287191029": [
+      "AONCW",
+      "AONC"
+    ],
+    "US03769M1062": [
+      "APOS",
+      "APO"
+    ],
+    "US0423156068": [
+      "ARR-P-C",
+      "ARR-PC"
+    ],
+    "US0454872047": [
+      "ASB-P-E",
+      "ASB-PF",
+      "ASB-PE"
+    ],
+    "VGG0544A1378": [
+      "ASPC",
+      "ASPCU"
+    ],
+    "LU0445408270": [
+      "ASPSW",
+      "ASPSZ",
+      "ASPS"
+    ],
+    "US04686J2006": [
+      "ATH-P-A",
+      "ATH-PE",
+      "ATH-P-E",
+      "ATH-PD",
+      "ATH-PB",
+      "ATH-P-D"
+    ],
+    "KYG0223V1059": [
+      "ATMCW",
+      "ATMC"
+    ],
+    "KYG0283A1085": [
+      "ATMV",
+      "ATMVR",
+      "ATMVU"
+    ],
+    "US0517741072": [
+      "AUR",
+      "AUROW"
+    ],
+    "KYG7244A1195": [
+      "AURE",
+      "PWM"
+    ],
+    "US15234Q2075": [
+      "EBR",
+      "AXIA"
+    ],
+    "US0605051046": [
+      "BAC-PS",
+      "BAC"
+    ],
+    "US06055H6080": [
+      "BAC-P-B",
+      "BAC-P-K",
+      "BML-P-H"
+    ],
+    "US0605052291": [
+      "BAC-PQ",
+      "BAC-PO",
+      "BAC-P-S",
+      "BAC-P-N",
+      "BAC-P-L",
+      "BAC-PB",
+      "MER-PK",
+      "BAC-PP",
+      "BAC-P-O",
+      "BAC-P-M",
+      "BAC-PE"
+    ],
+    "KYG1169T1040": [
+      "BACQU",
+      "BACQ"
+    ],
+    "US96812F1021": [
+      "BAER",
+      "BAERW"
+    ],
+    "US46641Q2416": [
+      "JAGG",
+      "BBAG"
+    ],
+    "US46641Q4495": [
+      "BBCB",
+      "JIGB"
+    ],
+    "CH0012530207": [
+      "BCHMY",
+      "BCHMF"
+    ],
+    "KYG0705H1039": [
+      "BDMDW",
+      "BDMD"
+    ],
+    "KYG2003N1135": [
+      "BEAGU",
+      "BEAGR"
+    ],
+    "BMG162581083": [
+      "BEPJ",
+      "BEP"
+    ],
+    "BMG162582313": [
+      "BEP-P-A",
+      "BEP-PA"
+    ],
+    "US08774B5084": [
+      "BETR",
+      "BETRW"
+    ],
+    "US12021E1091": [
+      "BFRG",
+      "BFRGW"
+    ],
+    "US8043958797": [
+      "BFS-P-E",
+      "BFS-PD",
+      "BFS-PE"
+    ],
+    "US10482B2007": [
+      "BHR-P-D",
+      "BHR-P-B",
+      "BHR-PB"
+    ],
+    "USG162522670": [
+      "BIP-PA",
+      "BIP-P-B",
+      "BIP-P-A"
+    ],
+    "KYG1148A1013": [
+      "BKHAU",
+      "BKHA",
+      "BKHAR"
+    ],
+    "US06055H8714": [
+      "BML-PG",
+      "BML-P-J"
+    ],
+    "US0605056250": [
+      "BML-PH",
+      "BML-P-L"
+    ],
+    "US25460E8690": [
+      "SPDN",
+      "BOED"
+    ],
+    "US25460G7088": [
+      "BRZU",
+      "BOEU"
+    ],
+    "US0625452075": [
+      "BOH-P-A",
+      "BOH-PB",
+      "BOH-PA"
+    ],
+    "KYG127291105": [
+      "BOWN",
+      "BOWNU"
+    ],
+    "US09769B1070": [
+      "BSLK",
+      "BSLKW"
+    ],
+    "US0554742090": [
+      "BTCM",
+      "SLAI"
+    ],
+    "CA09629B4047": [
+      "BTCWD",
+      "BTCWF"
+    ],
+    "US09174P1057": [
+      "BTMWW",
+      "BTM"
+    ],
+    "CA0558691014": [
+      "BTQ",
+      "BTQQF"
+    ],
+    "US10950A1060": [
+      "BTSG",
+      "BTSGU"
+    ],
+    "US67021W1036": [
+      "BURUW",
+      "BURU"
+    ],
+    "US05614L2097": [
+      "BW",
+      "BWSN",
+      "BWNB"
+    ],
+    "US05614L4077": [
+      "BW-PA",
+      "BW-P-A"
+    ],
+    "US1086211034": [
+      "BWBBP",
+      "BWB"
+    ],
+    "KYG1993W1096": [
+      "CAPN",
+      "CAPNR"
+    ],
+    "KYG189321063": [
+      "CAPT",
+      "CAPTW"
+    ],
+    "US1524131000": [
+      "CBC",
+      "CBCY"
+    ],
+    "US12510Q1004": [
+      "CCCS",
+      "CCC"
+    ],
+    "US14167R1005": [
+      "CCLDO",
+      "CCLD"
+    ],
+    "US14159C1036": [
+      "CDIOW",
+      "CDIO"
+    ],
+    "US20678X2053": [
+      "CDT",
+      "CDTTW"
+    ],
+    "KYG4491L1041": [
+      "CEPO",
+      "CEP"
+    ],
+    "IL0011336851": [
+      "MBAI",
+      "CHEK"
+    ],
+    "US17259U2042": [
+      "CION",
+      "CICB"
+    ],
+    "US16934Q5053": [
+      "CIM-P-C",
+      "CIM-P-A",
+      "CIM-P-B",
+      "CIM-PA",
+      "CIM-P-D"
+    ],
+    "US3207033099": [
+      "CLDWW",
+      "CLDI"
+    ],
+    "CA7393014062": [
+      "PNPNF",
+      "CMETF"
+    ],
+    "US2075978245": [
+      "CNLHO",
+      "CNTHO"
+    ],
+    "US29415V1098": [
+      "COCHW",
+      "COCH"
+    ],
+    "US20451Q3020": [
+      "CODI-PB",
+      "CODI-P-C",
+      "CODI-P-B",
+      "CODI-P-A"
+    ],
+    "KYG070411098": [
+      "COOTW",
+      "COOT"
+    ],
+    "US45259A2096": [
+      "CPXR",
+      "LGDX",
+      "NACP"
+    ],
+    "US22112B1044": [
+      "CSPKF",
+      "CSPKY"
+    ],
+    "KYG2R18K1210": [
+      "CSTUF",
+      "CSTWF"
+    ],
+    "US2635343070": [
+      "CTA-PB",
+      "CTA-P-A"
+    ],
+    "US22948Q2003": [
+      "CTO-PA",
+      "CTO-P-A"
+    ],
+    "KYG5501C1252": [
+      "CUBWU",
+      "CUB"
+    ],
+    "US23204G6052": [
+      "CUBI-P-F",
+      "CUBI-PF"
+    ],
+    "US88636J8080": [
+      "PLTY",
+      "FIAT",
+      "HOOY",
+      "CVNY",
+      "LLYX"
+    ],
+    "US18539C1053": [
+      "CWEN-A",
+      "CWENA"
+    ],
+    "US23248B1098": [
+      "CXAIW",
+      "CXAI"
+    ],
+    "US25401T5048": [
+      "DBRG-PH",
+      "DBRG-P-I",
+      "DBRG-P-H",
+      "DBRG-P-J",
+      "DBRG-PJ"
+    ],
+    "US46655E1001": [
+      "DC",
+      "DC-WT"
+    ],
+    "US26922A7019": [
+      "DVP",
+      "DEEP"
+    ],
+    "US86280R7952": [
+      "DHSB",
+      "ELCV"
+    ],
+    "US25400Q1058": [
+      "DJTWW",
+      "DJT"
+    ],
+    "US2538688225": [
+      "DLR-P-K",
+      "DLR-PL",
+      "DLR-P-L",
+      "DLR-P-J"
+    ],
+    "KYG2847J1040": [
+      "DMAA",
+      "DMAAU"
+    ],
+    "MHY2066G1127": [
+      "DSX-WT",
+      "DSX-PB",
+      "DSX-P-B"
+    ],
+    "US02072L5571": [
+      "DTAN",
+      "FTWO"
+    ],
+    "US2333311072": [
+      "DTG",
+      "DTE"
+    ],
+    "KYG2853N1060": [
+      "DTSQU",
+      "DTSQR",
+      "DTSQ"
+    ],
+    "US26441C5013": [
+      "DUK-P-A",
+      "DUK-PA"
+    ],
+    "US26817Q8785": [
+      "DX-PC",
+      "DX-P-C"
+    ],
+    "US26605Q3048": [
+      "DXF",
+      "DXFFY"
+    ],
+    "US2698081013": [
+      "ECCW",
+      "ECC",
+      "ECCU"
+    ],
+    "US2698097035": [
+      "ECCV",
+      "ECCC"
+    ],
+    "US27877D1046": [
+      "ECDA",
+      "ECDAW"
+    ],
+    "US2890742057": [
+      "ECF-P-A",
+      "ECF-PA"
+    ],
+    "KYG292011031": [
+      "ECXWW",
+      "ECX"
+    ],
+    "US28852N4060": [
+      "EFC-P-A",
+      "EFC-P-D",
+      "EFC-P-B",
+      "EFC-P-C",
+      "EFC-PA",
+      "EFC-PC"
+    ],
+    "KYG2946P1265": [
+      "EGHA",
+      "EGHAU"
+    ],
+    "US2698171020": [
+      "EIC",
+      "EICC"
+    ],
+    "US29082A1079": [
+      "ERJ",
+      "EMBJ"
+    ],
+    "US2836782092": [
+      "EP-P-C",
+      "EP-PC"
+    ],
+    "US26884U2087": [
+      "EPR-P-E",
+      "EPR-P-C",
+      "EPR-P-G",
+      "EPR-PC"
+    ],
+    "US29452E2000": [
+      "EQH-PC",
+      "EQH-P-C",
+      "EQH-P-A",
+      "EQH-PA"
+    ],
+    "KYG3106N1097": [
+      "FTW",
+      "EQV",
+      "EQV-UN"
+    ],
+    "US46137V4721": [
+      "EQWM",
+      "XMHQ"
+    ],
+    "KYG3R95P1160": [
+      "ESGLW",
+      "ESGL"
+    ],
+    "US2964241044": [
+      "ESHA",
+      "ESHAR"
+    ],
+    "US2975841048": [
+      "ESLAW",
+      "ESLA"
+    ],
+    "US29273V1008": [
+      "ET-PI",
+      "ET"
+    ],
+    "VGG3142E1051": [
+      "EUDAW",
+      "EUDA"
+    ],
+    "US30049H1023": [
+      "EVLVW",
+      "EVLV"
+    ],
+    "US1651677353": [
+      "EXEEL",
+      "EXEEZ",
+      "EXEEW",
+      "EXE"
+    ],
+    "US3453708451": [
+      "F-PC",
+      "F-P-D",
+      "F-P-B",
+      "F-PD",
+      "F-PB",
+      "F-P-C"
+    ],
+    "US35243J2006": [
+      "FBRT-PE",
+      "FBRT-P-E"
+    ],
+    "KYG3415K1278": [
+      "FERAU",
+      "FERA"
+    ],
+    "US78463X1037": [
+      "FEU",
+      "SPEU"
+    ],
+    "US30190A1043": [
+      "FG",
+      "FGSN",
+      "FGN"
+    ],
+    "US32043P1066": [
+      "FGBIP",
+      "FGBI"
+    ],
+    "US30334J2015": [
+      "FGMCU",
+      "FGMCR"
+    ],
+    "US3205174028": [
+      "FHN-P-C",
+      "FHN-PE",
+      "FHN-P-E",
+      "FHN-P-F",
+      "FHN-PF"
+    ],
+    "US3167738604": [
+      "FITBP",
+      "FITBO"
+    ],
+    "US26922A2895": [
+      "SIXG",
+      "FIVG"
+    ],
+    "US8322482071": [
+      "FLLLF",
+      "SFD"
+    ],
+    "US3137452005": [
+      "FRT-P-C",
+      "FRT-PC"
+    ],
+    "KYG3530C1096": [
+      "FSHPU",
+      "FSHP"
+    ],
+    "AU000000FMG4": [
+      "FSUGY",
+      "FSUMF"
+    ],
+    "US3688024013": [
+      "GAM-P-B",
+      "GAM-PB"
+    ],
+    "US46436E4035": [
+      "STLG",
+      "GARP"
+    ],
+    "US36472T1097": [
+      "GCI",
+      "TDAY"
+    ],
+    "US3976242061": [
+      "GEF-B",
+      "GEFB"
+    ],
+    "CA3771304068": [
+      "GLASF",
+      "GHBWF"
+    ],
+    "KYG386171097": [
+      "GIBOW",
+      "GIBO"
+    ],
+    "KYG386481124": [
+      "GIGGW",
+      "GIGGU"
+    ],
+    "US36164V3050": [
+      "GLIBA",
+      "GLIBK"
+    ],
+    "US37946R3075": [
+      "GLP-P-B",
+      "GLP-PB"
+    ],
+    "US37957W2035": [
+      "GMRE-P-A",
+      "GMRE-PA"
+    ],
+    "US3793783008": [
+      "GNL-P-D",
+      "GNL-PA",
+      "GNL-P-B",
+      "GNL-P-E",
+      "GNL-P-A",
+      "GNL-PE"
+    ],
+    "KYG4035N1299": [
+      "GPATU",
+      "GPATW"
+    ],
+    "US38741L1070": [
+      "GPMT",
+      "GPMT-PA"
+    ],
+    "CA38071H1064": [
+      "GROY-WT",
+      "GROY"
+    ],
+    "CA3874372053": [
+      "GRP-UN",
+      "GRP-U"
+    ],
+    "US38144G8042": [
+      "GS-PD",
+      "GS-P-C",
+      "GS-P-D",
+      "GS-P-A"
+    ],
+    "US38144L8524": [
+      "GSC",
+      "GSCE"
+    ],
+    "KYG3852D1236": [
+      "GSHRW",
+      "GSHRU"
+    ],
+    "MHY271831213": [
+      "GSL-P-B",
+      "GSL-PB"
+    ],
+    "US3893752051": [
+      "GTNA",
+      "GTN-A"
+    ],
+    "US65343D1000": [
+      "NXEN",
+      "GTOS"
+    ],
+    "US74767N1072": [
+      "QSG",
+      "HERE"
+    ],
+    "US4227042052": [
+      "HL-P-B",
+      "HL-PB"
+    ],
+    "CA64550A1075": [
+      "HOVRW",
+      "HOVR"
+    ],
+    "VGG4R52R1030": [
+      "HPAI",
+      "HPAIW"
+    ],
+    "US4271051017": [
+      "HRDIL",
+      "HRDI"
+    ],
+    "US44045A1025": [
+      "HRZN",
+      "HTFB"
+    ],
+    "KYG4619M1179": [
+      "HSPOU",
+      "HSPOW"
+    ],
+    "KYG4627B1297": [
+      "HSPTR",
+      "HSPTU"
+    ],
+    "KYG4405D1236": [
+      "HVIIR",
+      "HVIIU"
+    ],
+    "US4101201097": [
+      "HWCPZ",
+      "HWC"
+    ],
+    "US44934N1081": [
+      "IBAC",
+      "IBACR"
+    ],
+    "US4507371015": [
+      "IBDSF",
+      "IBDRY"
+    ],
+    "US46438F1012": [
+      "LDRC",
+      "IBIT"
+    ],
+    "US26922B7091": [
+      "IDUB",
+      "IDME"
+    ],
+    "US45781V2007": [
+      "IIPR-P-A",
+      "IIPR-PA"
+    ],
+    "US4642871275": [
+      "ILCB",
+      "JKD"
+    ],
+    "US4642871192": [
+      "JKE",
+      "ILCG"
+    ],
+    "US4642881092": [
+      "JKF",
+      "ILCV"
+    ],
+    "US44975P1030": [
+      "NBP",
+      "IMAB"
+    ],
+    "US4642882082": [
+      "IMCB",
+      "JKG"
+    ],
+    "US4642883072": [
+      "JKH",
+      "IMCG"
+    ],
+    "US4642884062": [
+      "JKI",
+      "IMCV"
+    ],
+    "US45784M1080": [
+      "INV",
+      "INVLW"
+    ],
+    "US46187W1071": [
+      "IVVD",
+      "INVH"
+    ],
+    "IL0011745804": [
+      "INVZ",
+      "INVZW"
+    ],
+    "KYG6001J1076": [
+      "IPEX",
+      "MAYA"
+    ],
+    "US4642885051": [
+      "ISCB",
+      "JKJ"
+    ],
+    "US4642886042": [
+      "ISCG",
+      "JKK"
+    ],
+    "US4642887032": [
+      "ISCV",
+      "JKL"
+    ],
+    "KYG878901282": [
+      "ISPOW",
+      "TVAIU"
+    ],
+    "US78464A6727": [
+      "ITE",
+      "SPTI"
+    ],
+    "US46131B5066": [
+      "IVR-P-C",
+      "IVR-PC"
+    ],
+    "KYG651631007": [
+      "JOBY",
+      "JOBY-WT"
+    ],
+    "US46625H1005": [
+      "JPM-PM",
+      "JPM-PJ",
+      "JPM-PC",
+      "JPM-PL",
+      "JPM-PD",
+      "JPM-PK",
+      "JPM"
+    ],
+    "US48128B6487": [
+      "JPM-P-D",
+      "JPM-P-L",
+      "JPM-P-C",
+      "JPM-P-K",
+      "JPM-P-M",
+      "JPM-P-J"
+    ],
+    "US4932671088": [
+      "KEY",
+      "KEY-PL"
+    ],
+    "US4932677028": [
+      "KEY-P-K",
+      "KEY-P-L",
+      "KEY-P-J",
+      "KEY-PI"
+    ],
+    "KYG522581035": [
+      "KFIIR",
+      "KFIIU"
+    ],
+    "US63911H2076": [
+      "KITT",
+      "KITTW"
+    ],
+    "US49876K1034": [
+      "KLTOW",
+      "KLTO"
+    ],
+    "KYG531511098": [
+      "KWMWW",
+      "KWM"
+    ],
+    "US5322061095": [
+      "LIF",
+      "LIFX"
+    ],
+    "US5341878859": [
+      "LNC-PD",
+      "LNC-P-D"
+    ],
+    "KYG5509P1028": [
+      "LOKV",
+      "LOKVU"
+    ],
+    "KYG5S86M1187": [
+      "LPAAW",
+      "LPAAU"
+    ],
+    "US45259A5149": [
+      "LQPE",
+      "SNTH"
+    ],
+    "US45791D2080": [
+      "LUCY",
+      "LUCYW"
+    ],
+    "KYG5391L1023": [
+      "LVRO",
+      "LVROW"
+    ],
+    "KYG6004G1183": [
+      "MACIW",
+      "MACIU"
+    ],
+    "KYG632121151": [
+      "MBAVU",
+      "MBAVW"
+    ],
+    "US84757T1051": [
+      "MDAIW",
+      "MDAI"
+    ],
+    "US60784B2007": [
+      "MDV-PA",
+      "MDV-P-A"
+    ],
+    "US59156R8768": [
+      "MET-PF",
+      "MET-PA"
+    ],
+    "US55272X5086": [
+      "MFA-PB",
+      "MFA-PC",
+      "MFA-P-C"
+    ],
+    "US0012285013": [
+      "MITP",
+      "MITT",
+      "MITN"
+    ],
+    "US0012283034": [
+      "MITT-PC",
+      "MITT-PB",
+      "MITT-P-B",
+      "MITT-P-C",
+      "MITT-P-A"
+    ],
+    "US5797801074": [
+      "MKC-V",
+      "MKCV"
+    ],
+    "KYG6301B1196": [
+      "MLACU",
+      "MLACR"
+    ],
+    "US60743G1004": [
+      "MOBX",
+      "MOBXW"
+    ],
+    "US61747S5047": [
+      "MS-P-L",
+      "MS-PQ",
+      "MS-P-F",
+      "MS-P-E",
+      "MS-PA",
+      "MS-PO",
+      "MS-P-A"
+    ],
+    "US61762V8533": [
+      "MS-P-I",
+      "MS-PP"
+    ],
+    "US61762V6065": [
+      "MS-PK",
+      "MS-P-K"
+    ],
+    "US4569481165": [
+      "MSAI",
+      "MSAIW"
+    ],
+    "US25461A8669": [
+      "XOMX",
+      "MSFU"
+    ],
+    "US5537453087": [
+      "MSPR",
+      "MSPRW"
+    ],
+    "US55261F1049": [
+      "MTB-PH",
+      "MTB"
+    ],
+    "US55261F8721": [
+      "MTB-PJ",
+      "MTB-P-H"
+    ],
+    "GB00BMXNWH07": [
+      "NE-WT",
+      "NE",
+      "NE-WTA"
+    ],
+    "US65339F7134": [
+      "NEE-P-U",
+      "NEE-PS",
+      "NEE-P-T",
+      "NEE-PN",
+      "NEE-PT"
+    ],
+    "US62913M3051": [
+      "NGL-P-B",
+      "NGL-P-C",
+      "NGL-PC"
+    ],
+    "US75630B4023": [
+      "NIXXW",
+      "NIXX"
+    ],
+    "US0357108705": [
+      "NLY-P-F",
+      "NLY-PJ",
+      "NLY-PF",
+      "NLY-P-G",
+      "NLY-P-I"
+    ],
+    "US12664M2026": [
+      "NOEMU",
+      "NOEM",
+      "NOEMW"
+    ],
+    "KYG6476A1287": [
+      "NPACU",
+      "NPAC"
+    ],
+    "KYG6439S1259": [
+      "NTWOU",
+      "NTWO"
+    ],
+    "KYG507161027": [
+      "NVNI",
+      "NVNIW"
+    ],
+    "US65340G2057": [
+      "NXDT",
+      "NXDT-PA"
+    ],
+    "US68557F2092": [
+      "NXPLW",
+      "NXPL"
+    ],
+    "US68218J1034": [
+      "OABIW",
+      "OABI"
+    ],
+    "US6740013007": [
+      "OAK-P-B",
+      "OAK-PA",
+      "OAK-P-A"
+    ],
+    "KY67190B2033": [
+      "OAKUU",
+      "OAKUR"
+    ],
+    "US68277K2078": [
+      "ONFO",
+      "ONFOW"
+    ],
+    "US68270C1036": [
+      "ONMD",
+      "ONMDW"
+    ],
+    "US68840D1028": [
+      "OSRHW",
+      "OSRH"
+    ],
+    "US6915431026": [
+      "OXLCG",
+      "OXLC"
+    ],
+    "US6915436074": [
+      "OXLCP",
+      "OXLCI"
+    ],
+    "US7244795065": [
+      "PBI-PB",
+      "PBI-P-B"
+    ],
+    "KYG7257A1132": [
+      "PCAP",
+      "PCAPU"
+    ],
+    "US6943083054": [
+      "PCG-P-H",
+      "PCG-P-I",
+      "PCG-PG",
+      "PCG-P-A",
+      "PCG-PA",
+      "PCG-PB",
+      "PCG-P-G",
+      "PCG-P-B",
+      "PCG-PC",
+      "PCG-PH",
+      "PCG-P-C",
+      "PCG-PE",
+      "PCG-P-D",
+      "PCG-PI",
+      "PCG-P-E"
+    ],
+    "US80359A2050": [
+      "PDYNW",
+      "PDYN"
+    ],
+    "US70509V7047": [
+      "PEB-P-H",
+      "PEB-PF",
+      "PEB-P-E",
+      "PEB-P-G",
+      "PEB-P-F"
+    ],
+    "IL0011858912": [
+      "PGY",
+      "PGYWW"
+    ],
+    "US7444131053": [
+      "PIII",
+      "PIIIW"
+    ],
+    "US70931T1034": [
+      "PMT",
+      "PMTU"
+    ],
+    "US70931T5092": [
+      "PMT-P-A",
+      "PMT-P-B",
+      "PMT-P-C",
+      "PMT-PC"
+    ],
+    "US28252C2089": [
+      "POLCQ",
+      "POLWQ"
+    ],
+    "KYG267451022": [
+      "POLE",
+      "POLEU"
+    ],
+    "US74274W4006": [
+      "PRIF-PJ",
+      "PRIF-PD"
+    ],
+    "US74460W6856": [
+      "PSA-PF",
+      "PSA-P-F"
+    ],
+    "US74460W6690": [
+      "PSA-PG",
+      "PSA-P-G"
+    ],
+    "US74460W5379": [
+      "PSA-PS",
+      "PSA-PM",
+      "PSA-PO",
+      "PSA-P-M",
+      "PSA-P-Q",
+      "PSA-P-K",
+      "PSA-P-L",
+      "PSA-P-H",
+      "PSA-P-O",
+      "PSA-P-R",
+      "PSA-P-N",
+      "PSA-P-I",
+      "PSA-P-J"
+    ],
+    "US6936911071": [
+      "PSQH",
+      "PSQH-WT"
+    ],
+    "US46137V4317": [
+      "SPGP",
+      "PXLG"
+    ],
+    "US46137V4234": [
+      "SPVM",
+      "PXLV"
+    ],
+    "US46137V4564": [
+      "PXMV",
+      "XMVM"
+    ],
+    "US46137V4986": [
+      "PXSG",
+      "XSMO"
+    ],
+    "US46137V4804": [
+      "PXSV",
+      "XSVM"
+    ],
+    "US74841A1051": [
+      "QETA",
+      "QETAR",
+      "QETAU"
+    ],
+    "US97717X1569": [
+      "SFIG",
+      "QHY"
+    ],
+    "KYG7314B1041": [
+      "QSEA",
+      "QSEAR"
+    ],
+    "US74765K1051": [
+      "QSI",
+      "QSIAW"
+    ],
+    "KYG7375C1244": [
+      "RANGR",
+      "RANGU"
+    ],
+    "US75574U7054": [
+      "RC-P-C",
+      "RC-P-E"
+    ],
+    "US46137V3814": [
+      "RCD",
+      "RSPD"
+    ],
+    "KYG7576K1076": [
+      "RDAC",
+      "RDACU"
+    ],
+    "VGG7606H1082": [
+      "RDZNW",
+      "RDZN"
+    ],
+    "US7588491032": [
+      "REGCO",
+      "REG"
+    ],
+    "US7591EP7044": [
+      "RF-PF",
+      "RF-PC",
+      "RF-P-C",
+      "RF-P-E",
+      "RF-PE"
+    ],
+    "KYG753891095": [
+      "RFAI",
+      "RFAIU"
+    ],
+    "US46137V3244": [
+      "RSPN",
+      "RGI"
+    ],
+    "US46137V3731": [
+      "RSPS",
+      "RHS"
+    ],
+    "KYG7552W1252": [
+      "RIBBR",
+      "RIBBU"
+    ],
+    "US37954Y7076": [
+      "RNRG",
+      "YLCO"
+    ],
+    "US46137V3160": [
+      "RSPM",
+      "RTM"
+    ],
+    "US76119X1054": [
+      "RSVRW",
+      "RSVR"
+    ],
+    "US78137L1052": [
+      "RUM",
+      "RUMBW"
+    ],
+    "US7580754023": [
+      "RWTP",
+      "RWT"
+    ],
+    "KYG7852T2021": [
+      "SAIH",
+      "SAIHW"
+    ],
+    "US79550B1035": [
+      "SALN",
+      "SLNM"
+    ],
+    "US80349A2087": [
+      "SAZ",
+      "SAR",
+      "SAT"
+    ],
+    "MHY7388L1294": [
+      "SB-PD",
+      "SB-P-D",
+      "SB-P-C",
+      "SB-PC"
+    ],
+    "US8085247224": [
+      "SCCR",
+      "SCHK"
+    ],
+    "KYG857271087": [
+      "SDA",
+      "SDAWW"
+    ],
+    "KYG8118C1087": [
+      "SDHIU",
+      "SDHI"
+    ],
+    "US8549361017": [
+      "SDSTW",
+      "SDST"
+    ],
+    "US8606308703": [
+      "SF-PC",
+      "SF-PD",
+      "SF-P-C",
+      "SF-P-D"
+    ],
+    "US8244303009": [
+      "SHFSW",
+      "SHFS"
+    ],
+    "US8678928040": [
+      "SHO-P-H",
+      "SHO-PH",
+      "SHO-P-I",
+      "SHO-PI"
+    ],
+    "US82837P4081": [
+      "SI",
+      "SICPQ"
+    ],
+    "US83422N1054": [
+      "SLDPW",
+      "SLDP"
+    ],
+    "LU0633102719": [
+      "SMSEY",
+      "SMSOF"
+    ],
+    "US8425871071": [
+      "SO",
+      "SOJF"
+    ],
+    "US8361001071": [
+      "SOUNW",
+      "SOUN"
+    ],
+    "US8288068856": [
+      "SPG-PJ",
+      "SPG-P-J"
+    ],
+    "US20460L1044": [
+      "SPWR",
+      "SPWRW"
+    ],
+    "US84857L3096": [
+      "SR-P-A",
+      "SR-PA"
+    ],
+    "US83006G1040": [
+      "SXTPW",
+      "SXTP"
+    ],
+    "US87165B2025": [
+      "SYF-P-A",
+      "SYF-PA",
+      "SYF-PB"
+    ],
+    "KYG8193F1090": [
+      "SZZLR",
+      "SZZL"
+    ],
+    "US00206R5081": [
+      "T-P-A",
+      "T-P-C",
+      "T-PA"
+    ],
+    "US89278D1090": [
+      "TBMC",
+      "TBMCR"
+    ],
+    "US88224Q1076": [
+      "TCBI",
+      "TCBIO"
+    ],
+    "US8803491054": [
+      "TEN-P-F",
+      "TEN-PF",
+      "TEN-P-E"
+    ],
+    "US89832Q7455": [
+      "TFC-P-I",
+      "TFC-P-O",
+      "TFC-P-R"
+    ],
+    "US89832Q8107": [
+      "TFC-PR",
+      "TFC-PI",
+      "TFC-PO"
+    ],
+    "US89679E3009": [
+      "TFINP",
+      "TFIN"
+    ],
+    "ID1000129000": [
+      "TLK",
+      "TLKMF"
+    ],
+    "US87422Q1094": [
+      "TLN",
+      "TLNE"
+    ],
+    "US89680M1018": [
+      "TLSI",
+      "TLSIW"
+    ],
+    "BMG9078F1499": [
+      "TRTN-P-C",
+      "TRTN-P-A",
+      "TRTN-P-B",
+      "TRTN-P-D",
+      "TRTN-P-E"
+    ],
+    "US87266M2061": [
+      "TRTX-P-C",
+      "TRTX-PC"
+    ],
+    "KYG8772L1216": [
+      "TVACU",
+      "TVA"
+    ],
+    "US88165K1016": [
+      "TVGNW",
+      "TVGN"
+    ],
+    "US90187B8046": [
+      "TWO",
+      "TWOD"
+    ],
+    "US90187B2007": [
+      "TWO-PA",
+      "TWO-P-B",
+      "TWO-P-C",
+      "TWO-P-A"
+    ],
+    "US89240C2052": [
+      "TYHOY",
+      "TYHOF"
+    ],
+    "CA91707P2089": [
+      "URNAF",
+      "UBAAF"
+    ],
+    "US91060H1086": [
+      "UHGWW",
+      "UHG"
+    ],
+    "US9030025095": [
+      "UMH-P-D",
+      "UMH-PD"
+    ],
+    "US91733P1075": [
+      "USAR",
+      "USARW"
+    ],
+    "US9029733048": [
+      "USB",
+      "USB-PS"
+    ],
+    "US9029731554": [
+      "USB-P-S",
+      "USB-PH",
+      "USB-P-Q",
+      "USB-P-H",
+      "USB-P-R",
+      "USB-PQ",
+      "USB-PR"
+    ],
+    "KYG93Y0A1201": [
+      "UYSC",
+      "UYSCU",
+      "UYSCR"
+    ],
+    "KYG93A7H1041": [
+      "VACHW",
+      "VACH"
+    ],
+    "KYG93Y091153": [
+      "VCICU",
+      "VCICW"
+    ],
+    "US6934891226": [
+      "VEEAW",
+      "VEEA"
+    ],
+    "US9290428443": [
+      "VNO-P-N",
+      "VNO-PN",
+      "VNO-PL",
+      "VNO-P-L",
+      "VNO-P-O",
+      "VNO-P-M"
+    ],
+    "US92919Y1029": [
+      "VSEEW",
+      "VSEE"
+    ],
+    "DK0061539921": [
+      "VWDRY",
+      "VWSYF"
+    ],
+    "US9388241096": [
+      "WAFDP",
+      "WAFD"
+    ],
+    "JE00BPG99318": [
+      "WALDW",
+      "WALD"
+    ],
+    "US9478905055": [
+      "WBS-P-G",
+      "WBS-P-F",
+      "WBS-PF"
+    ],
+    "KYG9513S1104": [
+      "WBUYD",
+      "WBUY"
+    ],
+    "KYG9R39C1291": [
+      "WENNU",
+      "WENN"
+    ],
+    "US94988U1280": [
+      "WFC-P-A",
+      "WFC-P-C",
+      "WFC-P-L",
+      "WFC-PC",
+      "WFC-P-D",
+      "WFC-P-Y",
+      "WFC-PD",
+      "WFC-P-Z",
+      "WFC-PA"
+    ],
+    "US0844237067": [
+      "WRB-P-H",
+      "WRB-P-E",
+      "WRB-PF",
+      "WRB-PH",
+      "WRB-PE",
+      "WRB-P-G",
+      "WRB-P-F",
+      "WRB-PG"
+    ],
+    "US1429221294": [
+      "XAGE",
+      "XAGEW"
+    ],
+    "US98419J2069": [
+      "XOMA",
+      "XOMAO"
+    ],
+    "VGG1514D1197": [
+      "YHNA",
+      "YHNAU"
+    ],
+    "US45784G3092": [
+      "ZCAR",
+      "ZCARW"
+    ]
+  }
+}
