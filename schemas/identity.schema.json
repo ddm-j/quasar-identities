@@ -4,13 +4,9 @@
   "description": "Schema for a single financial instrument identity record.",
   "type": "object",
   "properties": {
-    "isin": {
-      "type": "string",
-      "description": "International Securities Identification Number (Global)"
-    },
     "figi": {
       "type": "string",
-      "description": "Finnancial Instrument Global Identifier"
+      "description": "Financial Instrument Global Identifier"
     },
     "symbol": {
       "type": "string",
@@ -25,7 +21,7 @@
       "description": "Exchange identifier (e.g., MIC code or provider-specific code)"
     }
   },
-  "required": ["symbol", "name", "isin", "figi"],
+  "required": ["symbol", "name", "figi"],
   "additionalProperties": false
 }
 

@@ -6,7 +6,7 @@ A collection of canonical financial instrument manifests designed for unambiguou
 
 In the world of quantitative finance and algorithmic trading, mapping ticker symbols to real-world assets is a non-trivial challenge. Ticker symbols are recycled, duplicated across exchanges, and change over time.
 
-This repository provides **Identity Manifests**: highly-curated, deduplicated, and validated lists of financial instruments. Each "Identity" represents a unique financial asset, mapping its trading symbols to a global, immutable standard like **ISIN** (International Securities Identification Number) or **DTI** (Digital Token Identifier).
+This repository provides **Identity Manifests**: highly-curated, deduplicated, and validated lists of financial instruments. Each "Identity" represents a unique financial asset, mapping its trading symbols to a global, immutable standard like **FIGI** (Financial Instrument Global Identifier) for securities or **DTI** (Digital Token Identifier) for crypto.
 
 ### Why use this?
 
@@ -26,13 +26,13 @@ This repository provides **Identity Manifests**: highly-curated, deduplicated, a
 All manifests follow a standardized JSON schema located in `schemas/identity.schema.json`.
 
 ```yaml
-- isin: US0378331005
+- figi: BBG000B9XRY4
   symbol: AAPL
   name: Apple Inc
   exchange: XNAS
 ```
 
-- **isin**: The global identifier for the asset.
+- **figi**: The global FIGI identifier for the asset (securities).
 - **symbol**: The primary ticker symbol (or semicolon-separated aliases).
 - **name**: The official name of the instrument.
 - **exchange**: The primary listing exchange (Market Identifier Code).

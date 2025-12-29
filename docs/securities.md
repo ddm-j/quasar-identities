@@ -22,9 +22,9 @@ The ingestion script processes a dated JSON file from EODHD containing the follo
 ## 3. The Ingestion Algorithm
 To create a high-fidelity manifest for the `quasar` matching engine, the `scripts/ingest_eodhd_securities.py` script performs a multi-stage refinement process.
 
-### Step 0: ISIN Filtering
-The manifest is built around the **ISIN** as the primary global identifier. 
-*   **Strict Filter**: Any record missing an ISIN or marked as "Unknown" is discarded. This ensures that every entry in the manifest can be cross-referenced with global financial databases.
+### Step 0: FIGI Filtering
+The manifest is built around the **FIGI** as the primary global identifier.
+*   **Strict Filter**: Only records with available FIGI mappings are processed. This ensures that every entry in the manifest can be cross-referenced with global financial databases.
 
 ### Step 1: MIC Exchange Mapping
 EODHD exchange codes are mapped to standard **ISO 10383 Market Identifier Codes (MIC)** using an internal translation table:
@@ -48,7 +48,7 @@ The "Matcher-Ready" requirement specifies that a specific `(symbol, name)` pair 
 | Phase | Record Count | Quality |
 | :--- | :--- | :--- |
 | **Raw JSON** | ~445,000 | High Noise (Indices, delisted entities, secondary quotes) |
-| **Final Manifest** | **34,664** | **Unique Financial Assets (Matcher-Ready)** |
+| **Final Manifest** | **~64,121** | **Unique Financial Assets (Matcher-Ready)** |
 
-**Key Feature**: Every symbol in the manifest is guaranteed to be unambiguous for the matching engine, ensuring that queries for a ticker like `AAPL` or `SPY` return exactly one canonical record with its associated global ISIN.
+**Key Feature**: Every symbol in the manifest is guaranteed to be unambiguous for the matching engine, ensuring that queries for a ticker like `AAPL` or `SPY` return exactly one canonical record with its associated global FIGI.
 

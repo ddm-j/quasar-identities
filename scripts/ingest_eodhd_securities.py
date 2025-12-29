@@ -77,20 +77,21 @@ def ingest_eodhd_securities():
 
     print(f"Processing latest file: {input_path}")
 
+    # --- STEP 1: Load FIGI mappings ---
+    figi_mappings = load_figi_mappings()
+
     with open(input_path, "r", encoding="utf-8") as f:
         raw_data = json.load(f)
 
-    # --- STEP 1 & 2: Filter and Map ---
+    # --- STEP 2: Filter and Map ---
     # Group by (symbol, name) to ensure unique mappings
     unique_mappings = {}
 
     for entry in raw_data:
-        isin = entry.get("Isin")
-        # Filter: Entries must have an ISIN
-        if not isin or isin == "Unknown":
-            continue
-
         symbol = entry.get("Code")
+        # Filter: Only process symbols that have FIGI mappings
+        if symbol not in figi_mappings:
+            continue
         name = entry.get("Name")
         
         if not symbol or not name:
@@ -102,21 +103,21 @@ def ingest_eodhd_securities():
 
         # Create record
         record = {
-            "isin": isin,
             "symbol": symbol,
             "name": name,
-            "exchange": exchange_mic
+            "exchange": exchange_mic,
+            "figi": figi_mappings[symbol]
         }
 
-        # Deduplication: One unique (symbol, name) -> ISIN mapping
-        # If multiple entries exist for the same (symbol, name), we keep the one 
+        # Deduplication: One unique (symbol, name) -> FIGI mapping
+        # If multiple entries exist for the same (symbol, name), we keep the one
         # that has a mapped exchange (priority to major exchanges)
         key = (symbol, name)
         if key not in unique_mappings:
             unique_mappings[key] = record
         else:
-            # If current has a mapped exchange and existing doesn't, or if current ISIN is different?
-            # User requirement: "There may only be one unique (symbol, name) -> ISIN mapping."
+            # If current has a mapped exchange and existing doesn't
+            # User requirement: "There may only be one unique (symbol, name) -> FIGI mapping."
             # We'll stick to the first one found that has a MIC code, or just the first one.
             if unique_mappings[key]["exchange"] is None and record["exchange"] is not None:
                 unique_mappings[key] = record
@@ -125,39 +126,9 @@ def ingest_eodhd_securities():
     final_records = list(unique_mappings.values())
     final_records.sort(key=lambda x: x["symbol"])
 
-    # --- STEP 3: Add FIGI mappings ---
-    figi_mappings = load_figi_mappings()
+    # FIGI mappings are already added during record creation, and filtering ensures all records have FIGI
 
-    figi_found = 0
-    figi_missing = 0
-
-    for record in final_records:
-        symbol = record["symbol"]
-        figi = figi_mappings.get(symbol)
-        record["figi"] = figi
-
-        if figi:
-            figi_found += 1
-        else:
-            figi_missing += 1
-
-    print(f"FIGI lookup: {figi_found:,} found, {figi_missing:,} missing")
-
-    # --- STEP 4: Filter for complete records (must have both ISIN and FIGI) ---
-    complete_records = []
-    incomplete_count = 0
-
-    for record in final_records:
-        if record.get("isin") and record.get("figi"):
-            complete_records.append(record)
-        else:
-            incomplete_count += 1
-
-    print(f"Filtered complete records: {len(complete_records):,} kept, {incomplete_count:,} removed")
-
-    final_records = complete_records
-
-    # --- STEP 5: Validate schema ---
+    # --- STEP 3: Validate schema ---
     print("Validating records against schema...")
 
     with open(SCHEMA_FILE, "r") as f:
@@ -178,7 +149,7 @@ def ingest_eodhd_securities():
 
     final_records = validated_records
 
-    # --- STEP 6: Save ---
+    # --- STEP 4: Save ---
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
