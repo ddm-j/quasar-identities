@@ -5,8 +5,12 @@
   "type": "object",
   "properties": {
     "isin": {
-      "type": ["string", "null"],
+      "type": "string",
       "description": "International Securities Identification Number (Global)"
+    },
+    "figi": {
+      "type": "string",
+      "description": "Finnancial Instrument Global Identifier"
     },
     "symbol": {
       "type": "string",
@@ -21,7 +25,7 @@
       "description": "Exchange identifier (e.g., MIC code or provider-specific code)"
     }
   },
-  "required": ["symbol", "name"],
+  "required": ["symbol", "name", "isin", "figi"],
   "additionalProperties": false
 }
 

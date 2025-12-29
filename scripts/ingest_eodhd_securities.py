@@ -4,10 +4,12 @@ import yaml
 import re
 from pathlib import Path
 from collections import defaultdict
+from jsonschema import validate, ValidationError
 
 # Configuration
 RAW_DATA_DIR = Path("data/raw/eodhd")
 OUTPUT_FILE = Path("manifests/securities/securities.yaml")
+SCHEMA_FILE = Path("schemas/identity.schema.json")
 
 # MIC Mapping from quasar provider
 EXCHANGE_MAP = {
@@ -21,7 +23,7 @@ def find_latest_file(directory, pattern):
     """Find the latest dated file in a directory based on a regex pattern."""
     files = []
     regex = re.compile(pattern)
-    
+
     if not directory.exists():
         return None
 
@@ -30,12 +32,42 @@ def find_latest_file(directory, pattern):
         if match:
             date_str = match.group(1)
             files.append((date_str, f))
-    
+
     if not files:
         return None
-    
+
     files.sort(reverse=True)
     return directory / files[0][1]
+
+def load_figi_mappings():
+    """Load FIGI mappings from the latest cleaned ID mapping file."""
+    input_path = find_latest_file(RAW_DATA_DIR, r"id_mapping_us_(\d{8})\.json")
+    if not input_path:
+        print("Warning: No cleaned ID mapping files found. FIGI lookups will be skipped.")
+        return {}
+
+    print(f"Loading FIGI mappings from: {input_path}")
+
+    try:
+        with open(input_path, 'r', encoding='utf-8') as f:
+            mapping_data = json.load(f)
+
+        # Create symbol -> FIGI mapping (strip .US suffix for compatibility)
+        figi_map = {}
+        for record in mapping_data:
+            symbol = record.get('symbol')
+            figi = record.get('figi')
+            if symbol and figi and symbol.endswith('.US'):
+                # Strip .US suffix to match securities data format
+                clean_symbol = symbol[:-3]  # Remove .US
+                figi_map[clean_symbol] = figi
+
+        print(f"Loaded {len(figi_map):,} FIGI mappings")
+        return figi_map
+
+    except Exception as e:
+        print(f"Error loading FIGI mappings: {e}")
+        return {}
 
 def ingest_eodhd_securities():
     input_path = find_latest_file(RAW_DATA_DIR, r"us_securities_(\d{8})\.json")
@@ -93,7 +125,60 @@ def ingest_eodhd_securities():
     final_records = list(unique_mappings.values())
     final_records.sort(key=lambda x: x["symbol"])
 
-    # --- STEP 3: Save ---
+    # --- STEP 3: Add FIGI mappings ---
+    figi_mappings = load_figi_mappings()
+
+    figi_found = 0
+    figi_missing = 0
+
+    for record in final_records:
+        symbol = record["symbol"]
+        figi = figi_mappings.get(symbol)
+        record["figi"] = figi
+
+        if figi:
+            figi_found += 1
+        else:
+            figi_missing += 1
+
+    print(f"FIGI lookup: {figi_found:,} found, {figi_missing:,} missing")
+
+    # --- STEP 4: Filter for complete records (must have both ISIN and FIGI) ---
+    complete_records = []
+    incomplete_count = 0
+
+    for record in final_records:
+        if record.get("isin") and record.get("figi"):
+            complete_records.append(record)
+        else:
+            incomplete_count += 1
+
+    print(f"Filtered complete records: {len(complete_records):,} kept, {incomplete_count:,} removed")
+
+    final_records = complete_records
+
+    # --- STEP 5: Validate schema ---
+    print("Validating records against schema...")
+
+    with open(SCHEMA_FILE, "r") as f:
+        schema = json.load(f)
+
+    validation_errors = 0
+    validated_records = []
+
+    for record in final_records:
+        try:
+            validate(instance=record, schema=schema)
+            validated_records.append(record)
+        except ValidationError as e:
+            validation_errors += 1
+            print(f"Schema validation error for {record.get('symbol', 'unknown')}: {e.message}")
+
+    print(f"Schema validation: {len(validated_records):,} passed, {validation_errors:,} failed")
+
+    final_records = validated_records
+
+    # --- STEP 6: Save ---
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
