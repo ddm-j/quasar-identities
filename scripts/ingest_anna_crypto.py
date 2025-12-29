@@ -10,7 +10,7 @@ from jsonschema import validate, ValidationError
 
 # Configuration
 RAW_DATA_DIR = Path("data/raw/anna")
-OUTPUT_FILE = Path("manifests/crypto/crypto.yaml")
+OUTPUT_FILE = Path("data/processed/anna/crypto_anna.yaml")
 SCHEMA_FILE = Path("schemas/identity.schema.json")
 
 def find_latest_file(directory, pattern):
